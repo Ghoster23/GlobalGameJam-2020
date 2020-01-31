@@ -1,5 +1,5 @@
-///@param child
-///@param ancestor
+///@param child_obj_ind
+///@param ancestor_obj_ind
 {
 var ch = argument0;
 var an = argument1;

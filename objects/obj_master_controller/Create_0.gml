@@ -35,6 +35,12 @@ instance_create_layer(x+400,y,"Draw",obj_draw_controller);
 
 
 
+//level controller
+instance_create_layer(x+500,y,layer,obj_level_controller);
+
+
+
+
 //player
 global.player = instance_create_layer(x+400,y+400,"Player",obj_test);
 global.player2 = instance_create_layer(x+800,y+400,"Player",obj_test_player_2);

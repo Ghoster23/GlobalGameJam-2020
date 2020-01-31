@@ -4,8 +4,8 @@
 //camera initiation
 camera = camera_create();
 
-cam_wd = 1920;
-cam_hg = 1080;
+cam_wd = 640;
+cam_hg = 360;
 
 display_set_gui_size(cam_wd, cam_hg);
 
