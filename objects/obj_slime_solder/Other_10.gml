@@ -1,22 +1,27 @@
-/// @description Find next action(s)
-var _icx = [0, -1, -2, -1, 0];
+/// @description Decide next action
+var _res = gp_find_closest(grid_x, grid_y, obj_food);;
 
-for(var i = 0; i < 5; i++) {
-	for(var j = 0; j < i * 2 + 1; j++) {
-		var _cx = grid_x + _icx[i] + j;
-		var _cy = grid_y + -2 + i;
-		
-		if(_cx < 0 || global.level_columns <= _cx) continue;
-		if(_cy < 0 || global.level_rows    <= _cy) continue;
-		
-		var _cell = global.level_grid[# _cx, _cy];
-		
-		var _piece = _cell[0];
-		
-		if(_piece != noone && instance_exists(_piece)) {
-			if(_piece.class == gamepiece_class.food) {
-				
-			}
-		}
+var _food_piece = (_res[1] < 5 ? _res[0] : noone);
+
+if(_food_piece != noone) {
+	var _dx = _food_piece.grid_x - grid_x;
+	var _dy = _food_piece.grid_y - grid_y;
+	
+	var _hd = move_horizontal.none;
+	var _vd = move_vertical.none;
+	
+	if(_dx < 0) _hd = move_horizontal.left;
+	if(0 < _dx) _hd = move_horizontal.right;
+	
+	if(_dy < 0) _vd = move_vertical.up;
+	if(0 < _dy) _vd = move_vertical.down;
+	
+	if(_hd == move_horizontal.none && _vd == move_vertical.none) {
+		ds_list_add(actions, act_eat_create(_food_piece));
+		action_count += 1;
+	}
+	else {
+		ds_list_add(actions, act_move_create(_hd, _vd));
+		action_count += 1;
 	}
 }

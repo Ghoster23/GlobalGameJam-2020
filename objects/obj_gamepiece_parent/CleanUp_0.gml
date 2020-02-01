@@ -1,3 +1,5 @@
+gp_unregister(id);
+
 if(ds_exists(actions, ds_type_list)) {
 	
 	while(!is_undefined(actions[| 0])) {

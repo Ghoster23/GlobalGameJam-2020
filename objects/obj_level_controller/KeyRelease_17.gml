@@ -1,1 +1,1 @@
-global.time_step += 1;
+pressed_play = true;

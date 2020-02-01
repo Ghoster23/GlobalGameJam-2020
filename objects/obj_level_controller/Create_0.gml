@@ -17,6 +17,10 @@ state = 0; // [ 0 - Inactive | 1 - Playing | 2 - Paused | 3 - Finished ]
 
 global.time_step = 0;
 
+// Command Flags
+pressed_play  = false;
+pressed_pause = false;
+pressed_reset = false;
 
 scr_load_level(global.level_number, 0, 0);
 

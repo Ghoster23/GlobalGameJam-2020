@@ -36,7 +36,7 @@ switch(_type) {
 	break;
 	
 	case action_types.eat:
-		act_eat_execute(_act, _obj);
+		act_eat_execute(_act);
 	break;
 }
 }

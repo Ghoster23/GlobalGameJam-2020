@@ -1,8 +1,8 @@
 {
-    "id": "407d2885-0298-466b-9688-618499a82fc7",
+    "id": "be0af284-a98e-4f67-9e3a-7801c974fb66",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_autotile",
+    "name": "gp_position_update",
     "IsCompatibility": false,
     "IsDnD": false
 }

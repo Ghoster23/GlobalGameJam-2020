@@ -1,8 +1,8 @@
 {
-    "id": "407d2885-0298-466b-9688-618499a82fc7",
+    "id": "fc6ac45d-7b7b-4198-903c-35b6a0f6e152",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_autotile",
+    "name": "gp_unregister",
     "IsCompatibility": false,
     "IsDnD": false
 }
