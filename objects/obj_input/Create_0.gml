@@ -1,3 +1,5 @@
+scr_unique_inst();
+
 enum E_INPUT_SLOT
 {
     UP,

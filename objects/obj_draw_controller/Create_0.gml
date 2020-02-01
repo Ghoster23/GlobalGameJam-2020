@@ -1,3 +1,5 @@
+scr_unique_inst();
+
 
 //get list of layers in room so as to respect drawing order
 layers = layer_get_all();

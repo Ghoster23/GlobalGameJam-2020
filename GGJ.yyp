@@ -679,6 +679,14 @@
             }
         },
         {
+            "Key": "5879a2ad-fab7-496b-877f-00b0b75ddfe8",
+            "Value": {
+                "id": "8bf79a90-71eb-4a51-acbc-bc3a9a6cc7e0",
+                "resourcePath": "sprites\\title_card\\title_card.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5b267d4b-d2c2-42cb-95d8-e455f8326e9f",
             "Value": {
                 "id": "5b216f23-40ef-4d62-b9b4-0050c20a349d",
@@ -924,6 +932,14 @@
                 "id": "66087745-c114-410f-be60-25ccd85b0249",
                 "resourcePath": "scripts\\input_is_analogue\\input_is_analogue.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7a56bf90-baa5-4417-b469-96d1717b57e4",
+            "Value": {
+                "id": "8735ec65-ba43-4894-b251-58c494e48cfa",
+                "resourcePath": "rooms\\rm_menu\\rm_menu.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1399,19 +1415,19 @@
             }
         },
         {
-            "Key": "be55327e-bfcc-40b1-849b-42c0bcd3d1cc",
-            "Value": {
-                "id": "0905e27a-f147-44d6-ba7e-f877269c89ee",
-                "resourcePath": "objects\\obj_led\\obj_led.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "be0af284-a98e-4f67-9e3a-7801c974fb66",
             "Value": {
                 "id": "029b4b18-0499-43ff-b2ce-78dcc73182ca",
                 "resourcePath": "scripts\\gp_position_update\\gp_position_update.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "be55327e-bfcc-40b1-849b-42c0bcd3d1cc",
+            "Value": {
+                "id": "0905e27a-f147-44d6-ba7e-f877269c89ee",
+                "resourcePath": "objects\\obj_led\\obj_led.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1540,6 +1556,14 @@
                 "id": "aaedca38-f7fd-4904-b28c-24c8572c04bf",
                 "resourcePath": "views\\cd70e5f2-4ba3-4f72-b111-9e73fd90952c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cda459c6-34ce-401e-b36c-282c55cdc9fc",
+            "Value": {
+                "id": "c8fd2cc3-5778-4e10-a94d-25d42ec01166",
+                "resourcePath": "datafiles_yy\\level1.csv.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {

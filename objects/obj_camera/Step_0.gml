@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if(follow == "static"){
+	exit;
+}
+
 //zoom in and out
 if(mouse_check_button(mb_right)){
 	
@@ -23,7 +27,6 @@ else{
 		follow = noone;
 	}
 }
-
 
 
 if(global.pause){
