@@ -863,6 +863,14 @@
             }
         },
         {
+            "Key": "80b8ecdb-926b-4ede-9e2b-2e2ac57919d4",
+            "Value": {
+                "id": "c40deb8d-267f-428c-bc9d-44365149b1dd",
+                "resourcePath": "scripts\\scr_circuitboard_background\\scr_circuitboard_background.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "81586bbc-ca78-456c-a923-4419951cd24e",
             "Value": {
                 "id": "7e93eb9a-6d69-4218-8611-bb9f2dccb849",
@@ -1060,6 +1068,14 @@
                 "id": "6bb263fd-aa62-48c3-af18-2394265151ba",
                 "resourcePath": "views\\9af4195d-36ce-4e12-b887-c77cb6c9f55c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9bdb3818-872b-485a-a507-5bbca8c03bad",
+            "Value": {
+                "id": "6142f821-7e7d-4ea6-93c0-a7c8a56362ce",
+                "resourcePath": "objects\\obj_circuitboard_background\\obj_circuitboard_background.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1783,7 +1799,8 @@
         "2a34ed40-afa1-463d-83b8-be38aa33ae8e",
         "9f8697d5-962d-46d2-bdcb-1ff8bb0f2080",
         "529d160a-2c15-43c4-babc-53de07a1a0e7",
-        "77c0a910-716f-417b-8af1-2c0365ff5be6"
+        "77c0a910-716f-417b-8af1-2c0365ff5be6",
+        "80b8ecdb-926b-4ede-9e2b-2e2ac57919d4"
     ],
     "tutorial": ""
 }
