@@ -11,8 +11,8 @@ cam_hg = 720;
 
 display_set_gui_size(cam_wd, cam_hg);
 
-camera_set_view_size(view_camera[0],cam_wd,cam_hg);
-camera_set_view_pos(view_camera[0],x-camera_get_view_width(view_camera[0])/2,y-camera_get_view_height(view_camera[0])/2);
+camera_set_view_size(view_camera[0], cam_wd, cam_hg);
+camera_set_view_pos(view_camera[0], x-camera_get_view_width(view_camera[0])/2, y-camera_get_view_height(view_camera[0])/2);
 
 //camera variables
 follow          = "static"

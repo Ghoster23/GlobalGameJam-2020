@@ -7,7 +7,9 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "6c7ca9ed-ac0f-421d-ae7b-692a4a122767"
+        "6c7ca9ed-ac0f-421d-ae7b-692a4a122767",
+        "5bf2f479-2598-4d3c-8a6f-9bc57182f3df",
+        "d0c134bc-7daf-4022-8830-837aaca13af4"
     ],
     "IsDnD": false,
     "layers": [
@@ -25,7 +27,8 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_3C0D8D56","id": "6c7ca9ed-ac0f-421d-ae7b-692a4a122767","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3C0D8D56","objId": "31883a71-648f-44ce-ae49-ec348c459201","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 64,"y": 64}
+{"name": "inst_3C0D8D56","id": "6c7ca9ed-ac0f-421d-ae7b-692a4a122767","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3C0D8D56","objId": "31883a71-648f-44ce-ae49-ec348c459201","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 64,"y": 64},
+{"name": "inst_3B837FDF","id": "d0c134bc-7daf-4022-8830-837aaca13af4","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3B837FDF","objId": "719805a0-b989-4895-a521-7c21d9982fd5","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 630,"y": 586}
             ],
             "layers": [
 
@@ -51,7 +54,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-
+{"name": "inst_42637D9B","id": "5bf2f479-2598-4d3c-8a6f-9bc57182f3df","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_42637D9B","objId": "a59e119c-2db9-4f20-8b17-617a975f74d4","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 640,"y": 288}
             ],
             "layers": [
 
@@ -93,7 +96,7 @@
             "__type": "GMRBackgroundLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Background",
             "id": "9cbcce34-a3a0-4cf0-9797-3de69fdd5fd4",
-            "animationFPS": 15,
+            "animationFPS": 0,
             "animationSpeedType": "0",
             "colour": { "Value": 4294967295 },
             "depth": 300,
@@ -101,7 +104,7 @@
             "grid_y": 32,
             "hierarchyFrozen": false,
             "hierarchyVisible": true,
-            "hspeed": 0,
+            "hspeed": 0.5,
             "htiled": true,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
@@ -114,12 +117,12 @@
             "m_serialiseFrozen": false,
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
-            "spriteId": "5879a2ad-fab7-496b-877f-00b0b75ddfe8",
+            "spriteId": "fd7563fe-0fa4-4272-bd2f-7361597e3c44",
             "stretch": false,
-            "userdefined_animFPS": false,
+            "userdefined_animFPS": true,
             "userdefined_depth": false,
             "visible": true,
-            "vspeed": 0,
+            "vspeed": 0.5,
             "vtiled": true,
             "x": 0,
             "y": 0

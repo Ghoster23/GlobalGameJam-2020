@@ -6,11 +6,6 @@ switch(room){
 	
 		global.level_controller = instance_create_layer(x+500,y,layer,obj_level_controller);
 		
-		//camera
-		global.camera.follow  = noone; 
-		global.camera.x       = 640;
-		global.camera.y       = 360;
-		
 		//add constraints to camera
 		var space = -30;
 		var info = global.level_info[|global.level_number];
@@ -23,6 +18,14 @@ switch(room){
 		global.camera.right_boundary   =  w + space;
 		global.camera.top_boundary     =    -space;
 		global.camera.bottom_boundary  =  h + space;
+		
+		//camera
+		global.camera.follow     = noone; 
+		global.camera.x          = w/2;
+		global.camera.y          = h/2;
+		global.camera.x_to       = w/2;
+		global.camera.y_to       = h/2;
+		global.camera.zoom_level = global.camera.zoom_min;
 	break;
 	
 	case rm_menu:
@@ -33,10 +36,10 @@ switch(room){
 		//constraints
 		global.camera.boundaries = false;
 		
-		global.camera.x          = 640;
-		global.camera.y          = 360;
-		global.camera.x_to          = 640;
-		global.camera.y_to          = 360;
+		global.camera.x		= 640;
+		global.camera.y		= 360;
+		global.camera.x_to  = 640;
+		global.camera.y_to  = 360;
 		
 		global.camera.zoom_level = 1;
 		
