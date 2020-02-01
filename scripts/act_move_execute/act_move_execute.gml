@@ -9,6 +9,13 @@ var _state = _act[? "State"];
 
 switch(_state) {
 	case 0:
+		_act[? "Start"] = [_obj.grid_x, _obj.grid_y];
+		
+		var _h_dir = _act[? "Horizontal"];
+		var _v_dir = _act[? "Vertical"];
+		
+		_act[? "End"] = [_obj.grid_x + _h_dir, _obj.grid_y + _v_dir];
+	
 		_state = 1;
 	break;
 	
@@ -16,11 +23,10 @@ switch(_state) {
 		var _h_dir = _act[? "Horizontal"];
 		var _v_dir = _act[? "Vertical"];
 		
-		var _ox = _obj.grid_x;
-		var _oy = _obj.grid_y;
+		var _start = _act[? "Start"];
 		
-		var _fx = (_ox + _h_dir + 0.5) * global.cell_size;
-		var _fy = (_oy + _v_dir + 0.5) * global.cell_size;
+		var _fx = (_start[0] + _h_dir + 0.5) * global.cell_size;
+		var _fy = (_start[1] + _v_dir + 0.5) * global.cell_size;
 	
 		if(_obj.x != _fx || _obj.y != _fy) {
 			var _dx = _fx - _obj.x;

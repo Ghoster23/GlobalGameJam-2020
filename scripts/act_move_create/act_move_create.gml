@@ -12,5 +12,8 @@ var _act = act_create(_type);
 ds_map_add(_act, "Horizontal", _h_dir);
 ds_map_add(_act,   "Vertical", _v_dir);
 
+ds_map_add(_act, "Start", [0,0]);
+ds_map_add(_act,   "End", [0,0]);
+
 return _act;
 }
