@@ -16,12 +16,12 @@ x += (x_to - x)/tracking_factor;
 y += (y_to - y)/tracking_factor;
 
 //make sure camera is not outside bounds
-//x = max(cam_wd/2, min(x, room_width - cam_wd/2));
-//y = max(cam_hg/2, min(y, room_height - cam_hg/2));
+x = max(left_boundary, min(x, right_boundary));
+y = max(top_boundary,  min(y, bottom_boundary));
 
 
 //take care of zooming
-zoom_level = clamp(zoom_level + ((mouse_wheel_down() - mouse_wheel_up())* 0.4), zoom_min, zoom_max)
+zoom_level = clamp(zoom_level + ((mouse_wheel_down() - mouse_wheel_up())* zoom_increment), zoom_min, zoom_max)
 
 if(zoom_level <= 1.3){
 	global.zoomed_in = true;

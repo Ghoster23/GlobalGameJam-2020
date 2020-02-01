@@ -263,11 +263,27 @@
             }
         },
         {
+            "Key": "1df6c474-88ac-4c8e-845a-538215a221e5",
+            "Value": {
+                "id": "a623dc6a-4c2a-4a4d-81bb-29711747625d",
+                "resourcePath": "objects\\obj_battery\\obj_battery.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "21a9ea7b-eaa3-4ee9-a8a9-d73d286ee9b7",
             "Value": {
                 "id": "2b6ec0cf-9ff3-43e4-9784-45fe320429af",
                 "resourcePath": "scripts\\scr_instance_create_v\\scr_instance_create_v.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "24065e7d-efb4-4eb4-960a-92f7aaaba800",
+            "Value": {
+                "id": "bea2e915-9cbc-4028-913a-8252517ee822",
+                "resourcePath": "views\\24065e7d-efb4-4eb4-960a-92f7aaaba800.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -499,6 +515,14 @@
             "Value": {
                 "id": "bcda6e1c-8c62-4614-8f8f-542e31abcd32",
                 "resourcePath": "views\\435f5d6f-97e5-4079-bf63-d7010fbc253b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4363ca60-5e8e-4689-993e-b22fdedbae0c",
+            "Value": {
+                "id": "9a5850fa-1027-4b82-a066-a8abc162c956",
+                "resourcePath": "views\\4363ca60-5e8e-4689-993e-b22fdedbae0c.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -772,6 +796,14 @@
                 "id": "a774046b-1aa5-4d60-977d-447a0472f634",
                 "resourcePath": "views\\6b5e458c-c4e3-45c7-8d13-c66e37f30972.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6b7fa674-d2fa-4dc1-832a-660d8caf4e93",
+            "Value": {
+                "id": "3dcccda7-50dc-412b-8afa-c3a7bb36c484",
+                "resourcePath": "sprites\\spr_led\\spr_led.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1335,6 +1367,14 @@
             }
         },
         {
+            "Key": "be55327e-bfcc-40b1-849b-42c0bcd3d1cc",
+            "Value": {
+                "id": "0905e27a-f147-44d6-ba7e-f877269c89ee",
+                "resourcePath": "objects\\obj_led\\obj_led.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c19ecb7b-9ff0-45b5-85e7-a2260dfa57f7",
             "Value": {
                 "id": "725ad803-3d53-47fb-88e3-abec3c252c4a",
@@ -1756,6 +1796,14 @@
                 "id": "94e0c72d-7145-40ed-b998-4030d35f4195",
                 "resourcePath": "scripts\\input_check_released\\input_check_released.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f975bc67-2fd8-4545-9b60-6febf0dc17e7",
+            "Value": {
+                "id": "a1998eb7-741d-4fa6-a956-790354d1ed24",
+                "resourcePath": "sprites\\spr_battery\\spr_battery.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

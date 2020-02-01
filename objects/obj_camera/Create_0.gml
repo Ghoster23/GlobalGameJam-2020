@@ -21,9 +21,17 @@ cam_angle       = 0;
 
 //zoom variables
 
-zoom_min            = 0.5;
-zoom_max            = 5;
+zoom_min            = 0.6;
+zoom_max            = 1;
 zoom_level          = 1;
 default_zoom_width  = cam_wd;
 default_zoom_height = cam_hg;
 zoom_factor         = 0.2;
+zoom_increment      = 0.1;
+
+//boundary
+left_boundary    = -400;
+right_boundary   = +400;
+top_boundary     = -400;
+bottom_boundary  = +400;
+

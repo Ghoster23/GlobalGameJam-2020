@@ -24,12 +24,15 @@ else{
 	}
 }
 
+
+
 if(global.pause){
 	exit;
 }
 
 
 //allow player to rotate view
+/*
 if(keyboard_check(ord("J"))){
 	cam_angle -= 2;
 }
@@ -37,4 +40,4 @@ if(keyboard_check(ord("J"))){
 if(keyboard_check(ord("K"))){
 	cam_angle += 2;
 }
-
+*/

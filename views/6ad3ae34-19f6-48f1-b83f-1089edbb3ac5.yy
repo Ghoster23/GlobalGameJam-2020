@@ -6,7 +6,8 @@
     "children": [
         "cc00b88e-b3e1-4fc4-ae4a-8c3df1e0bb46",
         "5d383a87-0622-4ce8-bd50-3dba4b428d86",
-        "2d23cea4-804d-4dfe-bd01-fae44592761f"
+        "2d23cea4-804d-4dfe-bd01-fae44592761f",
+        "24065e7d-efb4-4eb4-960a-92f7aaaba800"
     ],
     "filterType": "GMObject",
     "folderName": "Game Pieces",

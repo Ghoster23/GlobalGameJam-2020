@@ -8,8 +8,8 @@ draw_set_alpha(0.5);
 
 draw_set_color(c_red);
 
-draw_rectangle(cell_x * global.cell_size, cell_y * global.cell_size, 
-				(cell_x + 1) * global.cell_size, (cell_y + 1) * global.cell_size, false);
+draw_rectangle(cell_x      * global.cell_size,  cell_y      * global.cell_size, 
+			  (cell_x + 1) * global.cell_size, (cell_y + 1) * global.cell_size, false);
 
 draw_set_color(c_white);
 
