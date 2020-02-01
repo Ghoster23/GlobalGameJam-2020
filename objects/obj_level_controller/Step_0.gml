@@ -3,45 +3,26 @@ switch(state) {
 	break;
 	
 	case 1: // Playing
-		#region Time Step
-		var _gamepiece_count = ds_list_size(global.gamepiece_list);
-
-		var _timestep_done = true;
-		
-		var _finished_count = 0;
-
-		// For each GamePiece
-		for(var i = 0; i < _gamepiece_count; i++) {
-			var _gamepiece = global.gamepiece_list[| i];
-			var _act_state = _gamepiece.action_state;
+		var _step_complete = true;
 	
-			// GamePiece has not concluded its current action
-			if(_act_state < 2) {
-				_timestep_done = false;
+		// For each GamePiece
+		var i = 0;
+		
+		while(not is_undefined(global.gamepiece_list[| i])) {
+			var _piece = global.gamepiece_list[| i];
+			
+			// If GamePiece has not completed its step
+			if(_piece.time_step != global.time_step) {
+				_step_complete = false;
 				break;
 			}
 			
-			// GamePiece has done all its actions
-			if(_act_state == 3) {
-				_finished_count += 1;
-			}
-		}
-
-		// If all GamePieces have concluded their current action
-		if(_timestep_done) {
-			global.time_step += 1;
+			i += 1;
 		}
 		
-		// If all GamePieces have concluded all their action
-		if(_finished_count == _gamepiece_count) {
-			state = 3;
-		}
-		#endregion
+		if(_step_complete) global.time_step += 1;
 	break;
 	
 	case 2: // Paused
-	break;
-	
-	case 3: // Finished
 	break;
 }

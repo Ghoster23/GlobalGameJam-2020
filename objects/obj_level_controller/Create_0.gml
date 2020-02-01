@@ -15,4 +15,9 @@ global.gamepiece_list = ds_list_create();
 
 state = 0; // [ 0 - Inactive | 1 - Playing | 2 - Paused | 3 - Finished ]
 
-global.time_step = 0;
+global.time_step = -1;
+
+// Command Flags
+pressed_play  = false;
+pressed_pause = false;
+pressed_reset = false;

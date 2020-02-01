@@ -1,21 +1,22 @@
-grid_x = x div global.cell_size;
-grid_y = y div global.cell_size;
+grid_x = 0;
+grid_y = 0;
 
-// Register Piece in the Level Grid
-var _present = global.level_grid[# grid_x, grid_y];
-_present[0] = self.id;
-global.level_grid[# grid_x, grid_y] = _present;
+ini_grid_x = grid_x;
+ini_grid_y = grid_y;
 
-// Register Piece in the GamePiece List
-ds_list_add(global.gamepiece_list, self.id);
+gp_register(id);
 
 class = gamepiece_class.none;
 
-time_step = 0;
+time_step = -1;
+
+state = 0; // [ 0 - Waiting | 1 - Executing Action ]
 
 actions = ds_list_create(); // Actions taken by the piece at each time step
 
-current_action = 0; // Action at present time step
-action_state  = 0; // State of the current action
+action_index = 0;
+action_count = 0;
+
+current_action = -1; // Action at present time step
 
 move_speed = 0;
