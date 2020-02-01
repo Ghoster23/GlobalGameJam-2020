@@ -367,6 +367,14 @@
             }
         },
         {
+            "Key": "28b75cbe-cfe6-490c-a9d7-d7595471eb36",
+            "Value": {
+                "id": "05d9dad5-f766-4861-b532-5ccb2e6c8354",
+                "resourcePath": "objects\\obj_reset_controller\\obj_reset_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "29e51be5-2836-4252-8a30-42a653c09f81",
             "Value": {
                 "id": "cb6a33b0-c6eb-4588-90b4-4500c30694b3",
@@ -1927,6 +1935,14 @@
             }
         },
         {
+            "Key": "f326d0b1-2793-48bd-bd66-4a58b2d131ef",
+            "Value": {
+                "id": "1c32b13b-65b3-40af-830e-f2ba8bfdfd53",
+                "resourcePath": "scripts\\scr_reset_level\\scr_reset_level.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f3ce8b08-177f-4f97-a614-98e22202dac7",
             "Value": {
                 "id": "acaae79b-adc5-46db-8a7d-ddd193c06d17",
@@ -2146,7 +2162,8 @@
         "1b1306eb-d95e-45de-89b7-c0c0cf9fea5d",
         "73e79537-ec5d-4963-9ab2-1cf5bf94d68b",
         "fe91d066-d757-4554-81b9-e17b4b4802b6",
-        "1a94b088-2b2b-46b0-a604-e15ccaaad34c"
+        "1a94b088-2b2b-46b0-a604-e15ccaaad34c",
+        "f326d0b1-2793-48bd-bd66-4a58b2d131ef"
     ],
     "tutorial": ""
 }

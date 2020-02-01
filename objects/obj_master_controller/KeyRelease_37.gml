@@ -1,8 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-// Inherit the parent event
-event_inherited();
-
-global.reset = true;
+global.level_number --;
 room_restart();
