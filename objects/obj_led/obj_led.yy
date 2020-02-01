@@ -4,11 +4,20 @@
     "mvc": "1.0",
     "name": "obj_led",
     "eventList": [
-        
+        {
+            "id": "a3ee501a-319a-40ac-9a9b-3449ac41215c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "be55327e-bfcc-40b1-849b-42c0bcd3d1cc"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "cc00b88e-b3e1-4fc4-ae4a-8c3df1e0bb46",
+    "parentObjectId": "860e5497-06a2-4d8f-8eee-a63337ce13ea",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

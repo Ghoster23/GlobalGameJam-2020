@@ -1,14 +1,14 @@
 {
-    "id": "1df6c474-88ac-4c8e-845a-538215a221e5",
+    "id": "860e5497-06a2-4d8f-8eee-a63337ce13ea",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_battery",
+    "name": "obj_component_parent",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "860e5497-06a2-4d8f-8eee-a63337ce13ea",
+    "parentObjectId": "cc00b88e-b3e1-4fc4-ae4a-8c3df1e0bb46",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "f975bc67-2fd8-4545-9b60-6febf0dc17e7",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

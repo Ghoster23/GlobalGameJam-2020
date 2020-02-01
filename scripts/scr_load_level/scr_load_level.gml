@@ -36,6 +36,10 @@ for(var i = 0; i < ds_grid_width(grid); i++){
 				
 				instance_create_layer(xx + i*32 + 16, yy + j*32 + 16, "Instances", obj);
 				
+				//for components make sure to spawn a wire underneath
+				if(object_get_parent(obj) == obj_component_parent){
+					instance_create_layer(xx + i*32 + 16, yy + j*32 + 16, "GameTiles", obj_wire);
+				}			
 			}
 			else{
 				
