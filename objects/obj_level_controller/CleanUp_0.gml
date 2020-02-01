@@ -8,3 +8,7 @@ if(ds_exists(global.gamepiece_list, ds_type_list)) {
 	ds_list_destroy(global.gamepiece_list);
 }
 
+// Destroy gametile list
+if(ds_exists(global.gametile_list, ds_type_list)) {
+	ds_list_destroy(global.gametile_list);
+}
