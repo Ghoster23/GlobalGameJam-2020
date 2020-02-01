@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0302a366-9ae3-4605-b00e-59be01e7ef40",
+            "Value": {
+                "id": "cf2cc34d-7942-44d7-92e9-67b6d7fb16d0",
+                "resourcePath": "views\\0302a366-9ae3-4605-b00e-59be01e7ef40.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "04ca72d5-415b-4ccc-80a4-20f6b6aa83be",
             "Value": {
                 "id": "f573f0fa-c36d-406f-85fa-428774ebee56",
@@ -183,6 +191,14 @@
             }
         },
         {
+            "Key": "15dab85d-4271-4284-bc04-4e1b8a3d5995",
+            "Value": {
+                "id": "83d2c14b-786a-454d-9af2-7a980458639e",
+                "resourcePath": "sprites\\spr_slime_solder_new\\spr_slime_solder_new.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "16f7426c-6372-4a2a-a55a-863e5f8cc835",
             "Value": {
                 "id": "fc552e79-7afb-4dad-863b-4c0554630e08",
@@ -284,6 +300,14 @@
                 "id": "ffff6389-07dd-42aa-9109-e9c03bf06b89",
                 "resourcePath": "views\\2a9b65e7-9de8-427f-a3fe-bebf3d6f9833.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2d2679a6-8614-4f11-868c-b04a7bf7f1f5",
+            "Value": {
+                "id": "5397ccc8-a149-4cb7-a105-fc51b27db807",
+                "resourcePath": "sprites\\spr_circuit_board_9sb\\spr_circuit_board_9sb.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -743,6 +767,14 @@
             }
         },
         {
+            "Key": "711bd081-7f9d-446a-810e-8cccba3ee2c8",
+            "Value": {
+                "id": "c2d592ef-c768-41d5-a618-c34db0e768f4",
+                "resourcePath": "views\\711bd081-7f9d-446a-810e-8cccba3ee2c8.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "72572dc4-3a72-4fbb-b501-46b2b118a7a4",
             "Value": {
                 "id": "fbccd3db-ea6c-4c62-8879-fbfc314fc459",
@@ -756,6 +788,22 @@
                 "id": "b10bbc72-345e-43fa-a3ab-1d73e01da1f7",
                 "resourcePath": "views\\73bb19ab-f7cc-4e80-82e7-77a35b10ce7f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "75cebe6b-8a60-4719-8388-8b74a29fcf87",
+            "Value": {
+                "id": "d78c5cec-f96d-4b8c-ac84-798c65693131",
+                "resourcePath": "sprites\\spr_circuit_board\\spr_circuit_board.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "77c0a910-716f-417b-8af1-2c0365ff5be6",
+            "Value": {
+                "id": "c2b33a43-2cac-49bb-ae1d-dd80ba6aaedd",
+                "resourcePath": "scripts\\scr_autotile\\scr_autotile.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -892,6 +940,14 @@
                 "id": "e5b899b2-50c1-4b2a-8e0b-04a554f27e60",
                 "resourcePath": "views\\8ccff798-3135-4dc2-9da7-2ec2e9e1f09d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8e412c92-b6b4-4926-bf95-2e1a4ee41eca",
+            "Value": {
+                "id": "28a016c4-65a8-4243-8e8c-076943194d35",
+                "resourcePath": "sprites\\spr_slime_blue\\spr_slime_blue.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1044,6 +1100,14 @@
                 "id": "0763125a-29fa-4039-9424-c3a1f0b49cdf",
                 "resourcePath": "scripts\\scr_mouse_hold\\scr_mouse_hold.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a07c2673-8730-4b6e-b878-b784fb87e267",
+            "Value": {
+                "id": "e0e14154-1b29-470e-a660-0b49fa7b6564",
+                "resourcePath": "sprites\\spr_wire\\spr_wire.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1220,6 +1284,14 @@
                 "id": "b3e68580-a27a-4b0a-8d9d-666505a610ff",
                 "resourcePath": "scripts\\load_data_to_grid\\load_data_to_grid.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c3561120-f0c4-4a90-8435-0d5155117598",
+            "Value": {
+                "id": "b86d8987-8433-4725-a3ae-4658ec8cc12a",
+                "resourcePath": "sprites\\spr_slime_energy\\spr_slime_energy.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1702,7 +1774,8 @@
         "150720b4-6db7-4323-9fcf-e8b3488224e2",
         "2a34ed40-afa1-463d-83b8-be38aa33ae8e",
         "9f8697d5-962d-46d2-bdcb-1ff8bb0f2080",
-        "529d160a-2c15-43c4-babc-53de07a1a0e7"
+        "529d160a-2c15-43c4-babc-53de07a1a0e7",
+        "77c0a910-716f-417b-8af1-2c0365ff5be6"
     ],
     "tutorial": ""
 }
