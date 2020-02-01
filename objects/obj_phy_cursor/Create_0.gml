@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+scr_unique_inst();
+
+
 layers = layer_get_all();
 num_layers = array_length_1d(layers)-1;
 

@@ -1,23 +1,31 @@
 
 //pan mode
-if(follow = "pan_mode"){
+if(follow == "pan_mode"){
 	x_to = pan_x;
 	y_to = pan_y;
 }
 
+else if(follow == "static"){
+	x_to = x_to;
+	y_to = y_to;
+}
 //other modes
 else if(follow != noone and instance_exists(follow)){
 	x_to = follow.x;
 	y_to = follow.y;
 }
 
+
 //move camera
 x += (x_to - x)/tracking_factor;
 y += (y_to - y)/tracking_factor;
 
 //make sure camera is not outside bounds
-x = max(left_boundary, min(x, right_boundary));
-y = max(top_boundary,  min(y, bottom_boundary));
+
+if(boundaries) {
+	x = max(left_boundary, min(x, right_boundary));
+	y = max(top_boundary,  min(y, bottom_boundary));
+}
 
 
 //take care of zooming

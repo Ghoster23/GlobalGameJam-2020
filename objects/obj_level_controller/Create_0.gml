@@ -31,16 +31,3 @@ scr_load_level(global.level_number, 0, 0);
 
 //spawn board
 instance_create_layer(0,0,"Board",obj_circuitboard);
-
-//add constraints to camera
-var space = -30;
-var info = global.level_info[|global.level_number];
-
-var w = info[0] * 32;
-var h = info[1] * 32;
-
-global.camera.left_boundary    =    -space;
-global.camera.right_boundary   =  w + space;
-global.camera.top_boundary     =    -space;
-global.camera.bottom_boundary  =  h + space;
-

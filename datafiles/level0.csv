@@ -1,10 +1,10 @@
 obj_slime_solder;;;;;;;;;;;;;;;;;;;obj_slime_solder
 ;;;;;;;;;;;;;;obj_wire;;;;;
 ;;;;;;;;;;;;obj_wire;;obj_wire;;;;;
-obj_slime_solder;;;;;;obj_led;;;;;;obj_wire;;obj_wire;obj_wire;;;;
+obj_slime_solder;;;;;obj_wire;obj_led;obj_wire;obj_wire;;;;obj_wire;;obj_wire;obj_wire;;;;
 ;;;;;;;;;;;;obj_wire;;obj_wire;;;;;
-;;;;;;;;;;obj_wire;obj_wire;obj_wire;obj_wire;obj_wire#obj_slime_solder;;;;;
-obj_battery;;;;;;;;obj_wire;obj_wire;obj_wire;;;;obj_wire;obj_wire;obj_wire;obj_wire;;
+;;obj_wire;;;;;;;;obj_wire;obj_wire;obj_wire;obj_wire;obj_wire#obj_slime_solder;;;;;
+obj_battery;obj_wire;obj_wire;;;;;;obj_wire;obj_wire;obj_wire;;;;obj_wire;obj_wire;obj_wire;obj_wire;;
 ;;obj_slime_solder;;obj_food;;obj_slime_solder;;;;;;;;obj_wire;;;;;
 ;;;;;;;;;;;;;;obj_wire;obj_wire;;;;
 obj_slime_solder;;;;;;;;;;;;;;;;;;;obj_slime_solder

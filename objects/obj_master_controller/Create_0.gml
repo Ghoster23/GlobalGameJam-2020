@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+scr_unique_inst();
+
 draw_script = noone;
 
 physics_world_update_speed(room_speed*4);
@@ -16,6 +18,7 @@ global.cursor.visible = true;
 
 //LEVEL INFO 
 global.level_info = ds_list_create();
+global.level_number = 0;
 
 // w, h, file_name
 ds_list_add(global.level_info, [20, 10, "level0.csv"]); //0
@@ -41,20 +44,11 @@ instance_create_layer(x+300,y,layer,obj_window_controller);
 instance_create_layer(x+400,y,"Draw",obj_draw_controller);
 
 
-
 //camera
-global.camera = instance_create_layer(x+700,y+700,layer,obj_camera);
-global.camera.follow  = noone; 
+global.camera = instance_create_layer(640, 360, layer, obj_camera);
+global.camera.follow  = "static"; 
 
-
-//level controller
-global.level_number = 0;
-instance_create_layer(x+500,y,layer,obj_level_controller);
-
-
-//data structure controller
-instance_create_layer(x+400,y,layer,obj_ds_controller);
-
+//other globals
 global.pause = false;
 
 global.zoomed_in = false;
