@@ -16,3 +16,17 @@ global.gamepiece_list = ds_list_create();
 state = 0; // [ 0 - Inactive | 1 - Playing | 2 - Paused | 3 - Finished ]
 
 global.time_step = 0;
+
+
+//LEVEL INFO 
+global.level_info = ds_list_create();
+
+// w, h, file_name
+ds_list_add(global.level_info, [20, 10, "level0.csv"]); //0
+ds_list_add(global.level_info, [5,  10, "level1.csv"]); //1
+
+scr_load_level(global.level_number, 0, 0);
+
+//spawn board
+instance_create_layer(0,0,"Board",obj_circuitboard);
+

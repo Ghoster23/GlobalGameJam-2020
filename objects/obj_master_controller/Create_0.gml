@@ -36,6 +36,7 @@ instance_create_layer(x+400,y,"Draw",obj_draw_controller);
 
 
 //level controller
+global.level_number = 0;
 instance_create_layer(x+500,y,layer,obj_level_controller);
 
 

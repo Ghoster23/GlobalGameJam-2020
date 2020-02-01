@@ -9,7 +9,7 @@ var h_tiles = argument1;
 var w = w_tiles*32; 
 var h = h_tiles*32;
 
-var surf = surface_create(w, h);
+var surf = surface_create(w + 64, h + 64);
 surface_set_target(surf);
 
 //PCB background
@@ -22,16 +22,16 @@ var j_max = max(sprh mod h, 1);
 for(var i = 0; i < i_max; i++){
 	for(var j = 0; j < j_max; j++){
 	
-		draw_sprite(spr_circuit_board, 0, i*sprw, j*sprh);
+		draw_sprite(spr_circuit_board, 0, 32 + i*sprw, 32 + j*sprh);
 	}
 }
 
 //PCB frame
-scr_9SB_ext(spr_circuit_board_9sb, 0, 0, w, h, 1, 1);
+scr_9SB_ext(spr_circuit_board_9sb2, 0, 0, w + 64, h + 64, 1, 1);
 
 //clean surf and retrun sprite
 surface_reset_target();
-var spr = sprite_create_from_surface(surf, 0, 0, w, h, false, false, 0, 0);
+var spr = sprite_create_from_surface(surf, 0, 0, w + 64, h + 64, false, false, 32, 32);
 surface_free(surf);
 
 return spr;

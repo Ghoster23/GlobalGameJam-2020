@@ -11,7 +11,7 @@ ________________________________________________________________________________
 image_xscale = 1/2.5;
 image_yscale = 1/2.5;
 
-display_set_gui_size(1920, 1080);
+display_set_gui_size(1280, 720);
 
 display_w = display_get_gui_width();
 display_h = display_get_gui_height();
@@ -26,7 +26,7 @@ console_h     = 40;
 console_text  = "=================| SomethingFell Console V 0.5 |=================\n"
 console_text += " (Esc -> exit console ) (Tab -> autocomplete) (Enter -> Execute)\n";
 console_text += " (LCtrl + Key -> macro): type 'list_macros()' for help          \n";
-console_max_h = 800;
+console_max_h = 500;
 
 show_log          = false;
 log_h             = string_height_ext(console_text,0,console_w - text_padding);
