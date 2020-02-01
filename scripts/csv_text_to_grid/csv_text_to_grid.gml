@@ -16,6 +16,7 @@ var grid_start_line = argument5;    //line from which to start writing to grid  
 //open file
 var file_read=file_text_open_read(working_directory + string(file_name));
 
+
 //jump to the right line if necessary
 if (file_start_line!=0){
 	repeat (file_start_line){

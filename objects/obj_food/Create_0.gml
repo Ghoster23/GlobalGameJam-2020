@@ -3,4 +3,4 @@ event_inherited();
 
 class = gamepiece_class.food;
 
-action_state = 3;
+draw_offset = -5;
