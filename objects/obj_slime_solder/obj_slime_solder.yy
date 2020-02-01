@@ -5,13 +5,13 @@
     "name": "obj_slime_solder",
     "eventList": [
         {
-            "id": "a27fa706-ff94-45eb-b2d9-912299748eab",
+            "id": "77b3c704-14d4-407a-9e4d-2397c971c23a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
+            "enumb": 10,
+            "eventtype": 7,
             "m_owner": "e1c4f926-4f04-47b5-893e-4f3dac188005"
         }
     ],
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "417974e7-1aba-4dd2-b88b-f3679b57faee",
+    "spriteId": "15dab85d-4271-4284-bc04-4e1b8a3d5995",
     "visible": true
 }

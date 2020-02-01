@@ -3,6 +3,7 @@ enum gamepiece_class {
 	tile,
 	component,
 	slime,
+	food,
 	count
 }
 
