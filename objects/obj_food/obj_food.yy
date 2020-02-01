@@ -1,23 +1,23 @@
 {
-    "id": "e1c4f926-4f04-47b5-893e-4f3dac188005",
+    "id": "2d23cea4-804d-4dfe-bd01-fae44592761f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_slime_solder",
+    "name": "obj_food",
     "eventList": [
         {
-            "id": "77b3c704-14d4-407a-9e4d-2397c971c23a",
+            "id": "b04cd464-67e3-4d9d-8f00-3ec8b6bb16ef",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 10,
-            "eventtype": 7,
-            "m_owner": "e1c4f926-4f04-47b5-893e-4f3dac188005"
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "2d23cea4-804d-4dfe-bd01-fae44592761f"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "70e7d3b9-7566-486c-9bf9-e668d6679fea",
+    "parentObjectId": "cc00b88e-b3e1-4fc4-ae4a-8c3df1e0bb46",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "15dab85d-4271-4284-bc04-4e1b8a3d5995",
+    "spriteId": "107023f9-d2fc-483b-9d0f-63667c01e7e4",
     "visible": true
 }

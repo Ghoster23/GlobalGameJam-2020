@@ -11,8 +11,6 @@ ds_list_add(global.gamepiece_list, self.id);
 
 class = gamepiece_class.none;
 
-finished = 0;
-
 time_step = 0;
 
 actions = ds_list_create(); // Actions taken by the piece at each time step

@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "107023f9-d2fc-483b-9d0f-63667c01e7e4",
+            "Value": {
+                "id": "46c676bc-636a-4f22-83de-d18235254a46",
+                "resourcePath": "sprites\\spr_food\\spr_food.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1265aa0f-417e-4878-b48d-b791cc78ce1d",
             "Value": {
                 "id": "6f19af8d-20f9-4025-9a0c-fc71e150d7b4",
@@ -194,7 +202,7 @@
             "Key": "15dab85d-4271-4284-bc04-4e1b8a3d5995",
             "Value": {
                 "id": "83d2c14b-786a-454d-9af2-7a980458639e",
-                "resourcePath": "sprites\\spr_slime_solder_new\\spr_slime_solder_new.yy",
+                "resourcePath": "sprites\\spr_slime_solder\\spr_slime_solder.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -300,6 +308,14 @@
                 "id": "ffff6389-07dd-42aa-9109-e9c03bf06b89",
                 "resourcePath": "views\\2a9b65e7-9de8-427f-a3fe-bebf3d6f9833.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2d23cea4-804d-4dfe-bd01-fae44592761f",
+            "Value": {
+                "id": "2d028981-6399-4a4e-8f69-39fb8a8e48f2",
+                "resourcePath": "objects\\obj_food\\obj_food.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -428,14 +444,6 @@
                 "id": "0a2ce6ac-cbae-4a65-a84f-ceed407a9862",
                 "resourcePath": "objects\\obj_camera\\obj_camera.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "417974e7-1aba-4dd2-b88b-f3679b57faee",
-            "Value": {
-                "id": "cdce4943-b1b5-4845-8b35-87ba2302845a",
-                "resourcePath": "sprites\\spr_slime_solder\\spr_slime_solder.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
