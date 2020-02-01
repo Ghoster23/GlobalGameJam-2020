@@ -1,5 +1,5 @@
 {
-    "id": "77c0a910-716f-417b-8af1-2c0365ff5be6",
+    "id": "407d2885-0298-466b-9688-618499a82fc7",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "scr_autotile",

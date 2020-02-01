@@ -1,10 +1,10 @@
-obj_slime_solder;;;;;;;;;;;;;;;;;;;obj_slime_solder
-;;obj_manel;;;;;;;;;;;;obj_wire;;;;;
-;;;;obj_manel;;;;;;;;obj_wire;;obj_wire;;;;;
-obj_manel#obj_slime_solder#obj_food;;obj_manel;obj_manel;;;;;;obj_manel;;;obj_wire;;obj_wire;obj_wire;;;;
+﻿obj_slime_solder;;;;;;;;;;;;;;;;;;;obj_slime_solder
+;;obj_food;;;;;;;;;;;;obj_wire;;;;;
+;;;;obj_food;;;;;;;;obj_wire;;obj_wire;;;;;
+obj_slime_solder;;obj_food;obj_food;;;;;;obj_food;;;obj_wire;;obj_wire;obj_wire;;;;
 ;;obj_slime_solder;;;;;;;;;;obj_wire;;obj_wire;;;;;
 ;;;;;;;;;;obj_wire;obj_wire;obj_wire;obj_wire;obj_wire#obj_slime_solder;;;;;
-obj_manel;;obj_manel;;;;;;obj_wire;obj_wire;obj_wire;;;;obj_wire;obj_wire;obj_wire;obj_wire;;
-;;;;obj_slime_solder;;;obj_manel;;;;;;;obj_wire;;;;;
+obj_food;;obj_food;;;;;;obj_wire;obj_wire;obj_wire;;;;obj_wire;obj_wire;obj_wire;obj_wire;;
+;;;;obj_slime_solder;;;obj_food;;;;;;;obj_wire;;;;;
 ;;;;;;;;;;;;;;obj_wire;obj_wire;;;;
-obj_slime_solder;obj_manel;;;;;;;;;;;;;;;;;;obj_slime_solder
+obj_slime_solder;obj_food;;;;;;;;;;;;;;;;;;obj_slime_solder
