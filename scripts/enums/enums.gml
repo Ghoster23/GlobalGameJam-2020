@@ -11,6 +11,7 @@ enum action_types {
 	none,
 	move,
 	eat,
+	spawn,
 	count
 }
 
@@ -38,5 +39,13 @@ enum directions {
 	down_right,
 	up_left,
 	down_left,
+	count
+}
+
+enum cell_reservation {
+	none = noone,
+	solder = 400,
+	energy = 401,
+	blast  = 402,
 	count
 }

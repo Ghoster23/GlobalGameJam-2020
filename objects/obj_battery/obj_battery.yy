@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "obj_battery",
     "eventList": [
-        
+        {
+            "id": "8348979d-4453-40b8-bc7a-ea5829990a66",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 10,
+            "eventtype": 7,
+            "m_owner": "1df6c474-88ac-4c8e-845a-538215a221e5"
+        },
+        {
+            "id": "271524a8-1b8d-4c00-ad3d-ced1a60fd19e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "1df6c474-88ac-4c8e-845a-538215a221e5"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
