@@ -23,7 +23,7 @@ cam_angle       = 0;
 
 //zoom variables
 
-zoom_min            = 0.6;
+zoom_min            = 0.7;
 zoom_max            = 1;
 zoom_level          = 1;
 default_zoom_width  = cam_wd;

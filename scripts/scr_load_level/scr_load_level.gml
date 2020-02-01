@@ -7,13 +7,15 @@ var level_no = argument0;  // level_number
 var xx       = argument1;
 var yy       = argument2;
 
-var level_info = global.level_info[|0]; 
+var level_info = global.level_info[|level_no]; 
 
-var tile_size = [0,0]; // [w,h]
+var tile_size = [];
 tile_size[0]  = level_info[0];   
 tile_size[1]  = level_info[1]; 
 
 var file_name = level_info[2];
+
+
 
 //load strings to ds_grid
 var grid = ds_grid_create(tile_size[0], tile_size[1]);
