@@ -5,7 +5,6 @@ scr_unique_inst();
 layers = layer_get_all();
 num_layers = array_length_1d(layers)-1;
 
-ds_heightgrid = 0;
 ds_heightgrid = ds_grid_create(2,1);
 
 //show_debug_message(layers);

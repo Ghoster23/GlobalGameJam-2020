@@ -27,3 +27,16 @@ enum move_vertical {
 	down  =  1,
 	count =  3
 }
+
+enum directions {
+	none,
+	up,
+	right,
+	down,
+	left,
+	up_right,
+	down_right,
+	up_left,
+	down_left,
+	count
+}
