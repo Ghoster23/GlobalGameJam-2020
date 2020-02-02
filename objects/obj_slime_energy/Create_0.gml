@@ -40,3 +40,6 @@ if(origin != noone) {
 
 prev_move_h = sign(_dx);
 prev_move_v = sign(_dy);
+
+
+draw_script = scr_electric_slime_draw;

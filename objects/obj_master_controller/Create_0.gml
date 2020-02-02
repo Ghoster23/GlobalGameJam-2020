@@ -60,4 +60,10 @@ global.zoomed_in = false;
 instance_create_layer(x+700,y,"Instances",obj_reset_controller);
 
 
+//PARTICLES
+global.ps = part_system_create();
+part_system_layer(global.ps, "Cursor");
+
+global.part_electricity = scr_part_ini_electricity();
+global.part_solder      = scr_part_ini_solder();
 
