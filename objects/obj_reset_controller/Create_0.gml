@@ -1,3 +1,3 @@
 global.reset = false;
 
-global.placed_things_grid = noone;
+global.placed_things_list = noone;
