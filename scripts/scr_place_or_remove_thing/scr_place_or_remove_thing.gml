@@ -37,6 +37,17 @@ if(new_obj == noone){
 		var thing = scr_placed_things_find_index(xx, yy, piece.object_index);
 		if(thing != -1){
 		
+			//conditions
+			switch(piece.object_index){
+		
+				case obj_slime_blast:
+				case obj_slime_solder:
+				
+					scr_play_sound(snd_slime_place1, snd_slime_place2);
+				break;
+			}
+		
+		
 			scr_clear_placed_thing(piece);
 			with(piece){
 				instance_destroy();
@@ -71,8 +82,9 @@ else if(is_descended(new_obj, obj_gamepiece_parent)){
 				if(tile == noone or tile.object_index != obj_slime_pad){
 					exit;
 				}
+				
+				scr_play_sound(snd_slime_place1, snd_slime_place2);
 			break;
-		
 		}
 		
 		var ob = instance_create_layer(xx, yy, "Instances", new_obj);

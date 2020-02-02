@@ -11,7 +11,9 @@
         "0e4cd0d7-1eb5-49b6-8cc6-861e4e0506e1",
         "20247dee-c7a9-441c-8dc5-da54c79db7e3",
         "22a6445b-dc96-4287-aaa3-dc34c91a3a18",
-        "23808c85-4478-46ff-a6bb-4cb243d8e51d"
+        "23808c85-4478-46ff-a6bb-4cb243d8e51d",
+        "a38c44f1-1cc1-421f-b807-06a317121259",
+        "da455de4-e385-4c61-922a-6f9aea9b7a65"
     ],
     "filterType": "GMSound",
     "folderName": "slimes",

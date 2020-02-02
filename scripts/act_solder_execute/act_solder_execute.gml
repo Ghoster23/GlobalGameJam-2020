@@ -11,6 +11,9 @@ switch(_state) {
 	break;
 	
 	case 1:
+	
+		scr_play_sound(snd_slime_solder);
+	
 		var _inst = instance_create_layer((grid_x + 0.5) * global.cell_size, (grid_y + 0.5) * global.cell_size, "GameTiles", obj_wire);
 		
 		_inst.time_step = global.time_step;

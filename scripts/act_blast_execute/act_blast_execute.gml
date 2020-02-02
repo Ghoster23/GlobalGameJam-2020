@@ -16,6 +16,9 @@ switch(_state) {
 		var _piece = _cell[0];
 		var _tile  = _cell[1];
 		
+		scr_play_sound(snd_explosion);
+		part_particles_create(global.ps, x, y, global.part_electricity, 20);
+		
 		instance_destroy(_piece);
 		instance_destroy(_tile);
 		
