@@ -1,7 +1,7 @@
 var cursor_x = obj_phy_cursor.x;
 var cursor_y = obj_phy_cursor.y;
 
-
+/*
 var _pieces =  "State - " + string(state) + " Time Step - " + string(global.time_step) + "\n";
 
 var i = 0;
@@ -15,7 +15,7 @@ while(not is_undefined(global.gamepiece_list[| i])) {
 }
 
 draw_text(global.level_columns * global.cell_size, global.level_rows = global.cell_size, _pieces);
-
+*/
 
 var cell_x = cursor_x div global.cell_size;
 var cell_y = cursor_y div global.cell_size;
