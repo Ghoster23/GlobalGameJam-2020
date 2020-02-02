@@ -18,5 +18,4 @@ for(var i = 0; i < ds_list_size(list); i++){
 	if(object_get_parent(obj) == obj_component_parent){
 		instance_create_layer(xx, yy, "GameTiles", obj_wire);
 	}	
-	
 }

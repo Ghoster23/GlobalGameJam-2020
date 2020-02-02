@@ -13,7 +13,14 @@ for(var i = 0; i < num_buttons; i++){
 	var b = instance_create_layer(x + width*i,y,"Buttons",obj_selector_button);
 	
 	b.selector    = id;
-	b.image_index = i;
+	b.image_index = i
 	buttons[i]    = b;
 	
 }
+
+
+buttons[0].obj = noone;
+buttons[1].obj = obj_slime_solder;
+buttons[2].obj = obj_food;
+buttons[3].obj = obj_slime_solder;  //FIXME
+buttons[4].obj = obj_food;          //FIXME

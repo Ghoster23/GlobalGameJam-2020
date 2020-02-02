@@ -6,5 +6,5 @@ if(global.placed_things_list == noone){
 	
 }
 
-ds_list_add(global.placed_things_list, [obj.x, obj.y, obj.id]);
+ds_list_add(global.placed_things_list, [obj.x, obj.y, obj.object_index]);
 
