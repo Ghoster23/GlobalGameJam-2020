@@ -1,6 +1,26 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+//enabled
+if(!enabled){
+	
+	for(var i = 0; i < num_buttons; i++){
+	
+		var b = buttons[i];
+		b.enabled = false;	
+	}
+}
+else{
+	
+	for(var i = 0; i < num_buttons; i++){
+	
+		var b = buttons[i];
+		b.enabled = true;	
+	}
+}
+
+
+//selection
 for(var i = 0; i < num_buttons; i++){
 	
 	var b = buttons[i];
