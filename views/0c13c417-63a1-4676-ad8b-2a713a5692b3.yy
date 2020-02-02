@@ -6,7 +6,8 @@
     "children": [
         "7c74dc1d-fc66-4e97-b7ed-6bd86aa47b37",
         "50e0a348-f436-4311-a08c-66c6b502de4a",
-        "2d23cea4-804d-4dfe-bd01-fae44592761f"
+        "2d23cea4-804d-4dfe-bd01-fae44592761f",
+        "11d48a53-7373-4f97-9203-75ddc3e5d0d0"
     ],
     "filterType": "GMObject",
     "folderName": "Game Tiles",

@@ -1,7 +1,15 @@
 if(!enabled){
+	
+	if(selected){
+		selector.selected = noone;
+	}
+	
 	image_blend = c_gray;
-	exit;
 }
+else{
+	image_blend = c_white;
+}
+
 
 if(selected){
 	sprite_index = spr_selector_down;

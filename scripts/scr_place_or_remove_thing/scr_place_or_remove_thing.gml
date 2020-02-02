@@ -83,7 +83,7 @@ else if(is_descended(new_obj, obj_gametile_parent)){
 		//conditions
 		switch(new_obj){
 		
-			case obj_food:
+			case obj_food_solder:
 			break;
 		
 		}

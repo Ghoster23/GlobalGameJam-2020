@@ -17,12 +17,11 @@ for(var i = 0; i < num_buttons; i++){
 	b.selector    = id;
 	b.image_index = i
 	buttons[i]    = b;
-	
 }
 
 
 buttons[0].obj = noone;
 buttons[1].obj = obj_slime_solder;
-buttons[2].obj = obj_food;
-buttons[3].obj = obj_slime_solder;  //FIXME
-buttons[4].obj = obj_food;          //FIXME
+buttons[2].obj = obj_food_solder;
+buttons[3].obj = obj_slime_blast;  
+buttons[4].obj = obj_food_blast;          
