@@ -69,3 +69,5 @@ part_system_layer(global.ps, "Cursor");
 global.part_electricity = scr_part_ini_electricity();
 global.part_solder      = scr_part_ini_solder();
 
+//MUSIC
+audio_play_sound(snd_music, 1, true);
