@@ -3,3 +3,6 @@
 
 image_speed = 0;
 target_scale = 1;
+
+
+hover = false;

@@ -25,12 +25,18 @@ if(selected){
 else{
 	if(place_meeting(x, y, obj_phy_cursor)){	
 		
+		if(hover == false){
+			hover = true;
+			audio_play_sound(snd_button_hover1, 1, false);
+		}
+		
 		if(device_mouse_check_button(0,mb_left)){
 			
 			sprite_index = spr_selector_down;
 		}
 		else if(device_mouse_check_button_released(0,mb_left)){
 			selector.selected = id;
+			scr_play_sound(snd_button_click1, snd_button_click2, snd_button_click3);
 		}
 		else{
 			sprite_index = spr_selector_hover;
@@ -38,6 +44,10 @@ else{
 		target_scale = 1.05;
 	}
 	else{
+		
+
+		hover = false;
+		
 		sprite_index = spr_selector;
 		target_scale = 1;
 	}
