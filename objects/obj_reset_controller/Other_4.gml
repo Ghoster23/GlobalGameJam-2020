@@ -7,15 +7,11 @@ if(global.reset){
 	
 	global.reset = false;	
 	
-	scr_reset_level(0,0);
-	
-	obj_console.console_text += "\n reset level \n"
+	scr_reset_level();
 
 }
 //else this means we are loading a fresh level
 else{
-
-	obj_console.console_text += "\n fresh level \n"
 
 	if(global.placed_things_list != noone && ds_exists(global.placed_things_list, ds_type_list)){
 		

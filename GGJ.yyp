@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "1f2bffb9-124e-44d5-af3c-505e991a44b7",
+            "Value": {
+                "id": "c38eeca9-8882-4baa-96d7-84115d930af1",
+                "resourcePath": "objects\\obj_slime_pad\\obj_slime_pad.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "213491a3-7963-49aa-a68b-6b2ab41eec76",
             "Value": {
                 "id": "db51728b-c8f6-4767-9389-15d1fd5e5e02",
@@ -1268,6 +1276,14 @@
                 "id": "a0d2d193-c37b-4d23-bbd2-24e9f5950c21",
                 "resourcePath": "views\\87a6d43f-46fc-4a05-b956-c5b5e0792439.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8851a30b-1eac-4dce-8eff-830929d33237",
+            "Value": {
+                "id": "9abb3c3a-0694-4eae-bea6-81194cac93a6",
+                "resourcePath": "sprites\\spr_quit_button\\spr_quit_button.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2231,6 +2247,14 @@
             }
         },
         {
+            "Key": "f33e740a-03d2-46eb-b814-fb86a3adab68",
+            "Value": {
+                "id": "b525363d-20ab-4516-936a-6e6133690183",
+                "resourcePath": "objects\\obj_quit_button\\obj_quit_button.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f3ce8b08-177f-4f97-a614-98e22202dac7",
             "Value": {
                 "id": "acaae79b-adc5-46db-8a7d-ddd193c06d17",
@@ -2315,6 +2339,14 @@
             "Value": {
                 "id": "a1998eb7-741d-4fa6-a956-790354d1ed24",
                 "resourcePath": "sprites\\spr_battery\\spr_battery.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fc0bee57-3305-4cca-a503-d53e743bcb97",
+            "Value": {
+                "id": "35f91a6a-72aa-4d0e-9d8d-fba5f3d99e58",
+                "resourcePath": "sprites\\spr_slime_pad\\spr_slime_pad.yy",
                 "resourceType": "GMSprite"
             }
         },

@@ -1,6 +1,6 @@
-;;;;;;;;;;;;;;;;;
-;;;;;;;;;;obj_wire;obj_wire;obj_wire;;obj_wire;;;
-;;;;;;;;;;;;obj_wire;;obj_wire;;;
+obj_slime_pad;obj_slime_pad;;;;obj_slime_pad;obj_slime_pad;;;;;;;;;;;
+obj_slime_pad;obj_slime_pad;;;;obj_slime_pad;obj_slime_pad;;;;obj_wire;obj_wire;obj_wire;;obj_wire;;;
+obj_slime_pad;obj_slime_pad;;;;;;;;;;;obj_wire;;obj_wire;;;
 ;;obj_wire;obj_wire;obj_wire;obj_wire;obj_led;obj_wire;obj_wire;obj_wire;obj_wire;;obj_wire;;obj_wire;obj_wire;;
 ;;obj_wire;;;;;;;;obj_wire;;obj_wire;;obj_wire;;;
 ;;obj_wire;;;;;;;;obj_wire;obj_wire;obj_wire;obj_wire;obj_wire;;;

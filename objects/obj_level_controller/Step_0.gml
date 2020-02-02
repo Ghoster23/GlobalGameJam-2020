@@ -26,7 +26,7 @@ switch(state) {
 		
 		if(device_mouse_check_button_released(0, mb_left)){
 			
-			scr_console_debug_message(string(piece) + " " + string(tile));
+			//scr_console_debug_message(string(piece) + " " + string(tile));
 			
 			scr_place_or_remove_thing(cell_x, cell_y, piece, tile);
 		}

@@ -65,7 +65,12 @@ else if(is_descended(new_obj, obj_gamepiece_parent)){
 		//conditions
 		switch(new_obj){
 		
+			case obj_slime_blast:
 			case obj_slime_solder:
+				
+				if(tile == noone or tile.object_index != obj_slime_pad){
+					exit;
+				}
 			break;
 		
 		}
