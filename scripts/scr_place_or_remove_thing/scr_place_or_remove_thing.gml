@@ -60,6 +60,16 @@ if(new_obj == noone){
 		var thing = scr_placed_things_find_index(xx, yy, tile.object_index);
 		if(thing != -1){
 		
+			//conditions
+			switch(tile.object_index){
+		
+				case obj_food_blast:
+				case obj_food_solder:
+				
+					scr_play_sound(snd_pop_out);
+				break;
+			}
+		
 			scr_clear_placed_thing(tile);
 			with(tile){
 				instance_destroy();
@@ -100,7 +110,9 @@ else if(is_descended(new_obj, obj_gametile_parent)){
 		//conditions
 		switch(new_obj){
 		
+			case obj_food_blast:
 			case obj_food_solder:
+				scr_play_sound(snd_pop_in);
 			break;
 		
 		}
