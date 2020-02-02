@@ -16,9 +16,9 @@ switch(_state) {
 		
 		var _obj_ind = _act[? "Object"];
 	
-		instance_create_layer((_sx + 0.5) * global.cell_size, (_sy + 0.5) * global.cell_size, layer, _obj_ind);
+		var _inst = instance_create_layer((_sx + 0.5) * global.cell_size, (_sy + 0.5) * global.cell_size, layer, _obj_ind);
 		
-		
+		_inst.time_step = global.time_step;
 		
 		_state = 2;
 	break;
