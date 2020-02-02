@@ -21,7 +21,10 @@ if(energy > capacity) {
 		var _piece = _adj[0];
 		var _tile  = _adj[1];
 		
-		if(_piece == noone and _tile != noone and _tile.object_index == obj_wire) {	
+		var _isBSlime = _piece != noone and instance_exists(_piece) and 
+						_piece.object_index == obj_slime_blast;
+		
+		if((_piece == noone or _piece == cell_reservation.blast or _isBSlime) and _tile != noone and _tile.object_index == obj_wire) {	
 			ds_list_add(_connectors, _adj);
 		}
 	}

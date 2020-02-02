@@ -46,5 +46,17 @@ switch(_type) {
 	case action_types.charge:
 		act_charge_execute(_act);
 	break;
+	
+	case action_types.solder:
+		act_solder_execute(_act);
+	break;
+	
+	case action_types.die:
+		act_die_execute(_act);
+	break;
+	
+	case action_types.blast:
+		act_blast_execute(_act);
+	break;
 }
 }

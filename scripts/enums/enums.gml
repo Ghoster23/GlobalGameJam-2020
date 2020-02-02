@@ -13,6 +13,9 @@ enum action_types {
 	eat,
 	spawn,
 	charge,
+	solder,
+	die,
+	blast,
 	count
 }
 
