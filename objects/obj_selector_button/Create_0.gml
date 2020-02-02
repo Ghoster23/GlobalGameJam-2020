@@ -14,3 +14,5 @@ stock      = 0;
 units_left = -1;
 
 initialized = false;
+
+hover = false;
