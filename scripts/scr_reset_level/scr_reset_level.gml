@@ -1,27 +1,22 @@
+var list = global.placed_things_list;
 
-var xx       = argument0;
-var yy       = argument1;
+if(list == noone){
+	exit;
+}
 
-
-var grid = global.placed_things_grid;
-
-
-for(var i = 0; i < ds_grid_width(grid); i++){
-
-	for(var j = 0; j < ds_grid_height(grid); j++){
-	
-		var things = global.placed_things_grid[# i, j];
-	
-		for(var k = 0; k < array_length_1d(things); k++){
+for(var i = 0; i < ds_list_size(list); i++){
 			
-			var obj = things[k];
+	var thing = global.placed_things_list[|i];
+	
+	var xx  = thing[0];
+	var yy  = thing[1];
+	var obj = thing[2];
 			
-			instance_create_layer(xx + i*32 + 16, yy + j*32 + 16, "Instances", obj);
+	instance_create_layer(xx, yy, "Instances", obj);
 				
-			//for components make sure to spawn a wire underneath
-			if(object_get_parent(obj) == obj_component_parent){
-				instance_create_layer(xx + i*32 + 16, yy + j*32 + 16, "GameTiles", obj_wire);
-			}	
-		}
-	}
+	//for components make sure to spawn a wire underneath
+	if(object_get_parent(obj) == obj_component_parent){
+		instance_create_layer(xx, yy, "GameTiles", obj_wire);
+	}	
+	
 }

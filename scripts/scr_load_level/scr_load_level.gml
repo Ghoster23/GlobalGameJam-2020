@@ -45,7 +45,7 @@ for(var i = 0; i < ds_grid_width(grid); i++){
 			}
 			else{
 				
-				obj_console.console_text += "\n GameObject doesn't exist: " + string(name) + "\n";
+				//obj_console.console_text += "\n GameObject doesn't exist: " + string(name) + "\n";
 			}
 		}
 	}

@@ -39,19 +39,25 @@ instance_create_layer(x+200,y,layer,obj_console);
 instance_create_layer(x+300,y,layer,obj_window_controller);
 
 
+
 //draw controller
 instance_create_layer(x+400,y,"Draw",obj_draw_controller);
+
 
 
 //camera
 global.camera = instance_create_layer(640, 360, layer, obj_camera);
 global.camera.follow  = "static"; 
 
+
 //other globals
 global.pause = false;
 
 global.zoomed_in = false;
 
+
+//reset controller
+instance_create_layer(x+700,y,"Instances",obj_reset_controller);
 
 
 

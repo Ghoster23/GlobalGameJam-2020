@@ -9,17 +9,17 @@ if(global.reset){
 	
 	scr_reset_level(0,0);
 	
-	obj_console.console_text += "\n fresh level \n"
+	obj_console.console_text += "\n reset level \n"
 
 }
 //else this means we are loading a fresh level
 else{
 
-	obj_console.console_text += "\n reset level \n"
+	obj_console.console_text += "\n fresh level \n"
 
-	if(global.placed_things_grid != noone && ds_exists(global.placed_things_grid, ds_type_grid)){
+	if(global.placed_things_list != noone && ds_exists(global.placed_things_list, ds_type_list)){
 		
-		ds_grid_destroy(global.placed_things_grid);
-		global.placed_things_grid = noone;
+		ds_list_destroy(global.placed_things_list);
+		global.placed_things_list = noone;
 	}
 }
