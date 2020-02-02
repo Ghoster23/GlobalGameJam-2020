@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_wire",
     "eventList": [
-        
+        {
+            "id": "4197b4f8-cb54-44b2-bed3-85270dbd66bc",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "7c74dc1d-fc66-4e97-b7ed-6bd86aa47b37"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

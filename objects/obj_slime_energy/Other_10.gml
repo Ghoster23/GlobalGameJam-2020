@@ -23,8 +23,12 @@ for(var _i = 0; _i < 4; _i++) {
 	var _isComponent = _piece != noone and instance_exists(_piece) and 
 						is_descended(_piece.object_index, obj_component_parent) and
 						_piece.object_index != obj_battery;
+						
+	var _isBSlime = _piece != noone and instance_exists(_piece) and 
+						_piece.object_index == obj_slime_blast;
 		
-	if((_piece == noone or _isComponent) and _tile != noone and _tile.object_index == obj_wire) {	
+	if((_piece == noone or _piece == cell_reservation.blast or _isBSlime or _isComponent) and 
+	   _tile != noone and _tile.object_index == obj_wire) {	
 		ds_list_add(_connectors, _adj);
 	}
 }
@@ -69,6 +73,7 @@ if(_cell != -1) {
 	var _mh = _tile.grid_x - grid_x;
 	var _mv = _tile.grid_y - grid_y;
 	
+	// If there's no GamePiece at the cell
 	if(_piece == noone) {
 		ds_list_add(actions, act_move_create(_mh, _mv));
 		action_count++;
@@ -79,6 +84,12 @@ if(_cell != -1) {
 		prev_move_h = _mh;
 		prev_move_v = _mv;
 	}
+	// If there's a Blast Slime going to the cell
+	else if(_piece == cell_reservation.blast || _piece.object_index == obj_slime_blast) {
+		ds_list_add(actions, act_blast_create(_tile.grid_x, _tile.grid_y));
+		action_count++;
+	}
+	// If there's a Component at the cell
 	else {
 		ds_list_add(actions, act_charge_create(_piece));
 		action_count++;

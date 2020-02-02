@@ -1,8 +1,8 @@
 {
-    "id": "567097d3-7f5c-427e-b58f-e244bddada1e",
+    "id": "e9f98ee7-8b5f-472a-933a-5c84f276171d",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "act_revert",
+    "name": "act_blast_execute",
     "IsCompatibility": false,
     "IsDnD": false
 }

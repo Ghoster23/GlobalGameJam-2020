@@ -15,6 +15,10 @@ switch(_state) {
 		
 		_act[? "Food"] = _food.object_index;
 		
+		food += _food.nourish;
+		
+		eaten++;
+		
 		instance_destroy(_food);
 		
 		_state = 2;
