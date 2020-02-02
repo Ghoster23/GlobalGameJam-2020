@@ -25,6 +25,7 @@ global.level_number = 0;
 ds_list_add(global.level_info, [10,  5, "level0.csv", 0, 0, 0, 0]); //0
 ds_list_add(global.level_info, [10,  5, "level1.csv", 1, 2, 0, 0]); //1
 ds_list_add(global.level_info, [10,  5, "level2.csv", 0, 0, 1, 1]); //1
+ds_list_add(global.level_info, [ 7,  7, "level3.csv", 4, 4, 4, 4]); //1
 
 global.total_level_no = ds_list_size(global.level_info);
 

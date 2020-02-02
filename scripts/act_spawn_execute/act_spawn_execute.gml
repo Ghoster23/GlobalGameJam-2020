@@ -21,7 +21,13 @@ switch(_state) {
 	
 		var _inst = instance_create_layer((_sx + 0.5) * global.cell_size, (_sy + 0.5) * global.cell_size, layer, _obj_ind);
 		
-		_inst.time_step = global.time_step;
+		with(_inst) {
+			origin = other.id;
+			time_step = global.time_step;
+			
+			prev_move_h = grid_x - other.grid_x;
+			prev_move_v = grid_y - other.grid_y;
+		}
 		
 		_state = 2;
 	break;

@@ -663,6 +663,14 @@
             }
         },
         {
+            "Key": "38564ae4-8846-488e-ba4c-d60633d855f5",
+            "Value": {
+                "id": "6ecffff1-e11d-4f86-ae45-aab92434e72d",
+                "resourcePath": "datafiles_yy\\level3.csv.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "385f5b87-c2c1-4c0c-b416-131c12f891bd",
             "Value": {
                 "id": "3d82f042-5b75-4e3e-ac7f-4b8a7b18663e",

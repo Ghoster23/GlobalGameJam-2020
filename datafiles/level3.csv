@@ -1,4 +1,7 @@
-;;;obj_slime_pad;obj_slime_pad;obj_slime_pad;obj_slime_pad;;
-;;obj_wire;obj_wire;obj_wire;obj_wire;obj_wire;obj_wire;obj_led_green#obj_wire
-;obj_battery_2V#obj_wire;obj_wire;;;;;;
-;;obj_wire;obj_wire;obj_wire;obj_wire;obj_wire;obj_wire;obj_led_red#obj_wire
+;obj_led_red#obj_wire;;obj_led_green#obj_wire;;obj_led_green#obj_wire;obj_slime_pad
+;obj_wire;obj_wire;obj_wire;;obj_wire;
+;;;;;obj_wire;
+obj_wire;obj_wire;obj_wire;obj_wire;obj_wire;obj_wire;
+obj_wire;;;obj_wire;;;
+obj_battery_2V#obj_wire;obj_battery_2V#obj_wire;;obj_wire;;;
+;;obj_slime_pad;obj_led_red#obj_wire;;obj_slime_pad;

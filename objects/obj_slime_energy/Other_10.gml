@@ -4,7 +4,7 @@
 #region Find Connections
 var _connectors = ds_list_create();
 
-var _positions = [[0, -1], [-1, 0], [1, 0], [0, 1]]; // up left right down
+var _positions = [[0, -1], [1, 0], [0, 1], [-1, 0]]; // up right down left
 
 for(var _i = 0; _i < 4; _i++) {
 	var _pos = _positions[_i];
@@ -46,20 +46,17 @@ if(_count == 1) {
 	
 // If there's more than one
 else if(_count > 1) {
-	var _choice = irandom(_count - 1);
+	var _choice = 0;
 		
 	_cell = _connectors[| _choice];
 	
 	var _tile = _cell[1];
 		
 	// If chosen to go back
-	if(prev_move_h == grid_x - _tile.grid_x and
-	   prev_move_v == grid_y - _tile.grid_y) {
-		ds_list_delete(_connectors, _choice);
+	if(prev_move_h * -1 == _tile.grid_x - grid_x and
+	   prev_move_v * -1 == _tile.grid_y - grid_y) {
 			
-		_choice = irandom(_count - 2); // Choose another
-			
-		_cell = _connectors[| _choice];
+		_cell = _connectors[| _choice + 1];
 	}
 }
 	
