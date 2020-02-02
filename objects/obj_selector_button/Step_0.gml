@@ -1,3 +1,7 @@
+if(!enabled){
+	image_blend = c_gray;
+	exit;
+}
 
 if(selected){
 	sprite_index = spr_selector_down;
