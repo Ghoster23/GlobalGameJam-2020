@@ -22,8 +22,9 @@ global.level_number = 0;
 
 
 // w, h, file_name, num of given resources
-ds_list_add(global.level_info, [20, 10, "level0.csv", 5, 5, 2, 2]); //0
-ds_list_add(global.level_info, [5,  10, "level1.csv", 3, 2, 5, 2]); //1
+ds_list_add(global.level_info, [10,  5, "level0.csv", 0, 0, 0, 0]); //0
+ds_list_add(global.level_info, [10,  5, "level1.csv", 1, 2, 0, 0]); //1
+ds_list_add(global.level_info, [10,  5, "level2.csv", 0, 0, 1, 1]); //1
 
 global.total_level_no = ds_list_size(global.level_info);
 

@@ -330,16 +330,16 @@
             "Key": "1df6c474-88ac-4c8e-845a-538215a221e5",
             "Value": {
                 "id": "a623dc6a-4c2a-4a4d-81bb-29711747625d",
-                "resourcePath": "objects\\obj_battery\\obj_battery.yy",
+                "resourcePath": "objects\\obj_battery_parent\\obj_battery_parent.yy",
                 "resourceType": "GMObject"
             }
         },
         {
-            "Key": "1f2bffb9-124e-44d5-af3c-505e991a44b7",
+            "Key": "1e6878a9-2417-4c3f-b996-d98aef01a9cb",
             "Value": {
-                "id": "c38eeca9-8882-4baa-96d7-84115d930af1",
-                "resourcePath": "objects\\obj_slime_pad\\obj_slime_pad.yy",
-                "resourceType": "GMObject"
+                "id": "e76cd62c-3c77-419a-996d-8f873973cc10",
+                "resourcePath": "sprites\\spr_battery_1V\\spr_battery_1V.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -348,6 +348,14 @@
                 "id": "9d2962fd-1d16-48b4-a853-85d2c03408e4",
                 "resourcePath": "views\\1ece872b-5630-4b75-943a-375a5a7932dd.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1f2bffb9-124e-44d5-af3c-505e991a44b7",
+            "Value": {
+                "id": "c38eeca9-8882-4baa-96d7-84115d930af1",
+                "resourcePath": "objects\\obj_slime_pad\\obj_slime_pad.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -495,10 +503,26 @@
             }
         },
         {
+            "Key": "2f6223ad-9950-4b4e-aa7f-4624dbca04f2",
+            "Value": {
+                "id": "911af93f-fcc3-4466-acc2-7ce2cbbd6ca8",
+                "resourcePath": "sprites\\spr_battery_2V\\spr_battery_2V.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2f874e11-136f-4445-8bbb-464996b379fe",
             "Value": {
                 "id": "8771dc4c-61ce-4f62-89e4-060c24dcc3ea",
                 "resourcePath": "objects\\obj_window_parent\\obj_window_parent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2fdb37d9-bf8b-4e93-adff-1623b3682fd6",
+            "Value": {
+                "id": "e1a2782d-fe1e-42e1-9ec7-239c2e0cc39c",
+                "resourcePath": "objects\\obj_battery_2V\\obj_battery_2V.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -903,6 +927,14 @@
             }
         },
         {
+            "Key": "622d60c4-afb7-4ba4-a5e2-68266eef4592",
+            "Value": {
+                "id": "ce887511-6700-463e-9d91-00ab7032716b",
+                "resourcePath": "views\\622d60c4-afb7-4ba4-a5e2-68266eef4592.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "628112dc-b08d-4fe7-902e-f1f1efe46eb5",
             "Value": {
                 "id": "343bb990-7e5e-4695-90bc-0853b9e740a3",
@@ -951,6 +983,14 @@
             }
         },
         {
+            "Key": "64cdbb70-c49e-4c2f-9d68-afd29199aab8",
+            "Value": {
+                "id": "335a3abd-6259-4d42-83f8-be3881ecd203",
+                "resourcePath": "objects\\obj_led_red\\obj_led_red.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "65639836-15cf-4691-ade8-cd652d67c038",
             "Value": {
                 "id": "4c82d61d-cecf-4aef-bdc1-9c8aa2da10bd",
@@ -972,6 +1012,14 @@
                 "id": "20e2188f-58ad-49d9-8b26-19276b2029eb",
                 "resourcePath": "scripts\\scr_string_split\\scr_string_split.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "66266ea7-f2f4-47de-9a3a-3e529eb11e7d",
+            "Value": {
+                "id": "a81c23a6-2562-4a9b-abc7-b04fda3a089c",
+                "resourcePath": "objects\\obj_battery_5V\\obj_battery_5V.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1527,10 +1575,34 @@
             }
         },
         {
+            "Key": "9b106ad8-3c8b-4dc3-8a79-12d0527ccf97",
+            "Value": {
+                "id": "7e7d701a-9109-4eca-a317-a0ccd980f3af",
+                "resourcePath": "datafiles_yy\\level2.csv.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "9bdb3818-872b-485a-a507-5bbca8c03bad",
             "Value": {
                 "id": "6142f821-7e7d-4ea6-93c0-a7c8a56362ce",
                 "resourcePath": "objects\\obj_circuitboard\\obj_circuitboard.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9c5ecb4f-a3cf-4514-9290-39f785b78082",
+            "Value": {
+                "id": "39ee0d9f-5405-4f93-ab3b-b4637ca4abf7",
+                "resourcePath": "views\\9c5ecb4f-a3cf-4514-9290-39f785b78082.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9c8158bf-7f87-489d-886b-6d2d32d3bcbf",
+            "Value": {
+                "id": "0064b33a-ee67-4ea1-95f9-32015eb33de1",
+                "resourcePath": "objects\\obj_led_green\\obj_led_green.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1826,7 +1898,15 @@
             "Key": "be55327e-bfcc-40b1-849b-42c0bcd3d1cc",
             "Value": {
                 "id": "0905e27a-f147-44d6-ba7e-f877269c89ee",
-                "resourcePath": "objects\\obj_led\\obj_led.yy",
+                "resourcePath": "objects\\obj_led_parent\\obj_led_parent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c0e2a7f2-0b61-4576-9a6d-cae33972f1ae",
+            "Value": {
+                "id": "e51dc473-916a-4d3e-aa59-5d36a2c2fd0e",
+                "resourcePath": "objects\\obj_battery_1V\\obj_battery_1V.yy",
                 "resourceType": "GMObject"
             }
         },

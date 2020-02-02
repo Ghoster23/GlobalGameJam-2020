@@ -1,8 +1,3 @@
-;;
-;;obj_battery
-;;
-;;obj_slime_solder
-;;
-;;obj_battery
-;;
-obj_food;;obj_food
+;;;;obj_slime_pad;;;;
+;;;;;;;;
+;obj_battery_1V#obj_wire;obj_wire;obj_wire;;obj_wire;obj_wire;obj_wire;obj_led_green#obj_wire

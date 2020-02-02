@@ -22,7 +22,7 @@ for(var _i = 0; _i < 4; _i++) {
 	
 	var _isComponent = _piece != noone and instance_exists(_piece) and 
 						is_descended(_piece.object_index, obj_component_parent) and
-						_piece.object_index != obj_battery;
+						not is_descended(_piece.object_index, obj_battery_parent);
 						
 	var _isBSlime = _piece != noone and instance_exists(_piece) and 
 						_piece.object_index == obj_slime_blast;
