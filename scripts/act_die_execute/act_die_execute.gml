@@ -11,6 +11,9 @@ switch(_state) {
 	break;
 	
 	case 1:
+	
+		scr_play_sound(snd_slime_die);
+	
 		instance_destroy(id);
 		
 		return;

@@ -1791,6 +1791,14 @@
             }
         },
         {
+            "Key": "a38c44f1-1cc1-421f-b807-06a317121259",
+            "Value": {
+                "id": "aa040998-bbc3-4d98-abf6-3e1e440fa36e",
+                "resourcePath": "sounds\\snd_electric3\\snd_electric3.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "a431cb49-4718-4b11-b368-bbfded521f5b",
             "Value": {
                 "id": "3b724968-0ade-49d4-8848-96907391300d",
@@ -2284,6 +2292,14 @@
                 "id": "0b9086fc-46c8-4894-9ea4-373d5c9f4b53",
                 "resourcePath": "objects\\obj_play_button\\obj_play_button.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "da455de4-e385-4c61-922a-6f9aea9b7a65",
+            "Value": {
+                "id": "a2692e00-41a6-45ce-a821-afbacafd6af3",
+                "resourcePath": "sounds\\snd_slime_solder\\snd_slime_solder.yy",
+                "resourceType": "GMSound"
             }
         },
         {

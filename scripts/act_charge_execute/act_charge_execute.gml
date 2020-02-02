@@ -11,6 +11,9 @@ switch(_state) {
 	break;
 	
 	case 1:
+	
+		scr_play_sound(snd_electric1, snd_electric2);
+	
 		var _component = _act[? "Component"];
 	
 		_component.energy += 1;

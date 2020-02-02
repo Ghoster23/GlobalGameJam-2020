@@ -11,6 +11,9 @@ switch(_state) {
 	break;
 	
 	case 1:
+	
+		scr_play_sound(snd_electric3);
+		
 		var _sx = _act[? "SpawnX"];
 		var _sy = _act[? "SpawnY"];
 		

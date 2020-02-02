@@ -72,7 +72,7 @@ if(_energy != noone) {
 		var _piece = _cell[0];
 		
 		// If cell is unoccupied
-		if(_piece == noone or _piece == cell_reservation.energy or _piece.object_index == obj_slime_energy) {
+		if(_piece == noone or _piece == cell_reservation.energy or (instance_exists(_piece) and _piece.object_index == obj_slime_energy)) {
 			ds_list_add(actions, act_move_create(_dx, _dy));
 			
 			_cell[0] = cell_reservation.blast;

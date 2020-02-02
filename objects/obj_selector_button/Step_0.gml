@@ -19,6 +19,7 @@ if(selected){
 		
 		if(device_mouse_check_button_released(0,mb_left)){
 			selector.selected = noone;
+			scr_play_sound(snd_button_click1, snd_button_click2, snd_button_click3);
 		}
 	}
 }

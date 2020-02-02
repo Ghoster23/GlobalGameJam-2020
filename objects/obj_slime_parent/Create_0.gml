@@ -7,3 +7,4 @@ move_speed = 2;
 
 food  = 0;
 eaten = 0;
+
