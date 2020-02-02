@@ -8,3 +8,6 @@ obj		 = noone;
 
 image_index = 0;
 image_speed = 0;
+
+stock      = 0;
+units_left = 0;

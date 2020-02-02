@@ -20,10 +20,12 @@ global.cursor.visible = true;
 global.level_info = ds_list_create();
 global.level_number = 0;
 
-// w, h, file_name
-ds_list_add(global.level_info, [20, 10, "level0.csv"]); //0
-ds_list_add(global.level_info, [5,  10, "level1.csv"]); //1
 
+// w, h, file_name, num of given resources
+ds_list_add(global.level_info, [20, 10, "level0.csv", 5, 5, 0, 0]); //0
+ds_list_add(global.level_info, [5,  10, "level1.csv", 3, 2, 5, 2]); //1
+
+global.total_level_no = ds_list_size(global.level_info);
 
 //input
 instance_create_layer(x+100,y,layer,obj_input);

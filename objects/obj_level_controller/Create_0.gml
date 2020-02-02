@@ -31,3 +31,15 @@ scr_load_level(global.level_number, 0, 0);
 
 //spawn board
 instance_create_layer(0,0,"Board",obj_circuitboard);
+
+
+//set counters for resources
+var buttons = obj_selector.buttons;
+buttons[1].stock      = _info[3];
+buttons[1].units_left = _info[3];
+buttons[2].stock      = _info[4];
+buttons[2].units_left = _info[4];
+buttons[3].stock      = _info[5];
+buttons[3].units_left = _info[5];
+buttons[4].stock      = _info[6];
+buttons[4].units_left = _info[6];
