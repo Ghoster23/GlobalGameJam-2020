@@ -12,6 +12,12 @@ var tile    = argument3;
 var xx = cell_x * global.cell_size + global.cell_size/2;
 var yy = cell_y * global.cell_size + global.cell_size/2;
 
+//make sure list exists
+if(global.placed_things_list == noone){
+	
+	global.placed_things_list = ds_list_create();
+	
+}
 
 //if nothing is selected nothing happens
 var new_thing = obj_selector.selected;
