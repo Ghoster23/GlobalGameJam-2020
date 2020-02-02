@@ -1,5 +1,5 @@
 /// @description Decide next action
-var _res = gt_find(obj_food);
+var _res = gt_find(obj_food_solder);
 
 var _min_dist = infinity;
 

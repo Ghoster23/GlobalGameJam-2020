@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "11d48a53-7373-4f97-9203-75ddc3e5d0d0",
+            "Value": {
+                "id": "1c9676c3-d1d1-40e0-9b3a-cdbfeef3301f",
+                "resourcePath": "objects\\obj_food_blast\\obj_food_blast.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1265aa0f-417e-4878-b48d-b791cc78ce1d",
             "Value": {
                 "id": "6f19af8d-20f9-4025-9a0c-fc71e150d7b4",
@@ -426,7 +434,7 @@
             "Key": "2d23cea4-804d-4dfe-bd01-fae44592761f",
             "Value": {
                 "id": "2d028981-6399-4a4e-8f69-39fb8a8e48f2",
-                "resourcePath": "objects\\obj_food\\obj_food.yy",
+                "resourcePath": "objects\\obj_food_solder\\obj_food_solder.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -812,6 +820,14 @@
                 "id": "aa38924d-119a-4904-93af-89f21fa12d1a",
                 "resourcePath": "datafiles_yy\\level1.csv.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "585af741-57ff-4617-a6ba-8cfdd31f1a76",
+            "Value": {
+                "id": "71529a3b-b420-4b28-8e87-ecb6c4ddd382",
+                "resourcePath": "objects\\obj_slime_blast\\obj_slime_blast.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1219,6 +1235,14 @@
             "Value": {
                 "id": "89018a0a-661f-4cd1-89d6-93c8eb4f7bf9",
                 "resourcePath": "scripts\\input_check_pressed\\input_check_pressed.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "85a73db3-a3e2-484f-8482-5e5fbd7d20a8",
+            "Value": {
+                "id": "76f8b068-1a4a-4470-aff3-3758d04ea691",
+                "resourcePath": "scripts\\scr_placed_things_count\\scr_placed_things_count.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2444,6 +2468,7 @@
         "213491a3-7963-49aa-a68b-6b2ab41eec76",
         "b175443b-8b41-46a5-b4af-93a9da337ec3",
         "e5fccd7f-dc3a-4ad0-b4da-5d9812ab84d3",
+        "85a73db3-a3e2-484f-8482-5e5fbd7d20a8",
         "6367fd06-ea12-4bb8-aeb1-dea86db3b03f",
         "c7ce33e7-e229-4209-b980-abdde94d6aeb",
         "bc6dff05-0dd4-4801-809e-574ded6a838e",

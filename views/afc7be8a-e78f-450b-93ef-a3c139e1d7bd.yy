@@ -8,7 +8,8 @@
         "807edb15-c986-4722-8aec-da3b3622afdf",
         "213491a3-7963-49aa-a68b-6b2ab41eec76",
         "b175443b-8b41-46a5-b4af-93a9da337ec3",
-        "e5fccd7f-dc3a-4ad0-b4da-5d9812ab84d3"
+        "e5fccd7f-dc3a-4ad0-b4da-5d9812ab84d3",
+        "85a73db3-a3e2-484f-8482-5e5fbd7d20a8"
     ],
     "filterType": "GMScript",
     "folderName": "reset",

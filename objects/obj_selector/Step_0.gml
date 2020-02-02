@@ -15,8 +15,15 @@ else{
 	for(var i = 0; i < num_buttons; i++){
 	
 		var b = buttons[i];
-		b.enabled = true;	
+		
+		if(b.units_left == 0){
+			b.enabled = false;
+		}
+		else{
+			b.enabled = true;	
+		}
 	}
+	
 }
 
 
