@@ -12,6 +12,7 @@ enum action_types {
 	move,
 	eat,
 	spawn,
+	charge,
 	count
 }
 

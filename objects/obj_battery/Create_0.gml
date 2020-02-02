@@ -1,4 +1,6 @@
 // Inherit the parent event
 event_inherited();
 
-charge = 5;
+capacity = 5;
+
+energy = 5;

@@ -4,7 +4,7 @@
 var _tile = argument0;
 
 with(_tile) {
-	if(ds_exists(global.level_grid, ds_type_map)) {
+	if(ds_exists(global.level_grid, ds_type_grid)) {
 		grid_x = x div global.cell_size;
 		grid_y = y div global.cell_size;
 	

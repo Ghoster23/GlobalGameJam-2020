@@ -5,29 +5,19 @@
     "name": "obj_start_button",
     "eventList": [
         {
-            "id": "c85de95f-275f-4050-9d16-b8e91dbc7121",
+            "id": "efcd03c4-8258-4827-bae5-c35a7f05703a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "719805a0-b989-4895-a521-7c21d9982fd5"
-        },
-        {
-            "id": "8d38595f-5f2c-42f9-8b39-aac5fb61b76a",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
+            "enumb": 10,
+            "eventtype": 7,
             "m_owner": "719805a0-b989-4895-a521-7c21d9982fd5"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "e7bc804a-418f-4b07-9dd8-75dfef9e46cd",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

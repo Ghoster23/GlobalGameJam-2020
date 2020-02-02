@@ -1,54 +1,73 @@
 /// @description Decide next action
-if(charge > 0) {
-	var _connectors = [noone, noone, noone];
+if(energy > 0) {
+	#region Find Cell to send excess to
+	var _connectors = ds_list_create();
 	
-	#region Search fot Connectors
-	var _pos_arr = [[0, -1], [-1, 0], [1, 0]];
-	
+	#region Find Connections
+	var _positions = [[0, -1], [-1, 0], [1, 0]]; // up left right
+
 	for(var _i = 0; _i < 3; _i++) {
-		var _pos = _pos_arr[_i];
+		var _pos = _positions[_i];
+	
+		var _adj_x = grid_x + _pos[0];
+		var _adj_y = grid_y + _pos[1];
 		
-		var _cx = grid_x + _pos[0];
-		var _cy = grid_y + _pos[1];
+		if(_adj_x < 0 or global.level_columns <= _adj_x) continue;
+		if(_adj_y < 0 or global.level_rows    <= _adj_y) continue;
 		
-		if(0 <= _cx and _cx < global.level_columns and
-		   0 <= _cy and _cy < global.level_rows) {
-			var _cell = global.level_grid;
-			
-			var _piece = _cell[0];
-			var _tile  = _cell[1];
-			
-			if(_piece == noone and 
-			   _piece != cell_reservation.solder and
-			   _piece != cell_reservation.blast  and
-			   _piece != cell_reservation.energy and
-			   _tile != noone and instance_exists(_tile) and 
-			   _tile.object_index == obj_wire) {
-				_connectors[_i] = _tile;
-			}
+		var _adj = global.level_grid[# _adj_x, _adj_y];
+		
+		var _piece = _adj[0];
+		var _tile  = _adj[1];
+		
+		if(_piece == noone and _tile != noone and _tile.object_index == obj_wire) {	
+			ds_list_add(_connectors, _adj);
 		}
 	}
 	#endregion
+
+	var _cell = -1;
+
+	#region Choose a connector from those found	
+	var _count = ds_list_size(_connectors); // Choose a connector
 	
-	var _choice = irandom(2);
-	
-	var _connector = _connectors[_choice];
-	
-	if(_connector == noone) {
-		_connector = _connectors[(_choice + 1) mod 3];
+	// If there's only that one
+	if(_count == 1) {
+		_cell = _connectors[| 0];
 	}
 	
-	if(_connector == noone) {
-		_connector = _connectors[(_choice + 2) mod 3];
-	}
-	
-	if(_connector != noone) {
-		ds_list_add(actions, act_spawn_create(_connector.grid_x, _connector.grid_y, obj_slime_energy));
+	// If there's more than one
+	else if(_count > 1) {
+		var _choice = irandom(_count - 1);
 		
-		var _cell = global.level_grid[# _connector.grid_x, _connector.grid_y];
+		_cell = _connectors[| _choice];
+	
+		var _tile = _cell[1];
+		
+		// If chosen to go back
+		if(last_power_input[0] == grid_x - _tile.grid_x and
+		   last_power_input[1] == grid_y - _tile.grid_y) {
+			ds_list_delete(_connectors, _choice);
+			
+			_choice = irandom(_count - 2); // Choose another
+			
+			_cell = _connectors[| _choice];
+		}
+	}
+	
+	ds_list_destroy(_connectors);
+	#endregion
+
+	if(_cell != -1) {
+		var _tile  = _cell[1];
+		
+		ds_list_add(actions, act_spawn_create(_tile.grid_x, _tile.grid_y, obj_slime_energy));
+		action_count++;
+		
 		_cell[0] = cell_reservation.energy;
-		global.level_grid[# _connector.grid_x, _connector.grid_y] = _cell;
+		global.level_grid[# _tile.grid_x, _tile.grid_y] = _cell;
 		
-		charge--;
+		energy--;
 	}
+	#endregion
 }

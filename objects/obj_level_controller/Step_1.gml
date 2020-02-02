@@ -18,6 +18,7 @@ switch(state) {
 				var _piece = global.gamepiece_list[| i];
 	
 				gp_reset(_piece);
+				i++;
 			}
 			state = 0;
 		}
@@ -35,6 +36,7 @@ switch(state) {
 				var _piece = global.gamepiece_list[| i];
 	
 				gp_reset(_piece);
+				i++;
 			}
 			state = 0;
 		}
@@ -53,6 +55,7 @@ switch(state) {
 				var _piece = global.gamepiece_list[| i];
 	
 				gp_reset(_piece);
+				i++;
 			}
 			state = 0;
 		}

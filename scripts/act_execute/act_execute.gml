@@ -38,5 +38,13 @@ switch(_type) {
 	case action_types.eat:
 		act_eat_execute(_act);
 	break;
+	
+	case action_types.spawn:
+		act_spawn_execute(_act);
+	break;
+	
+	case action_types.charge:
+		act_charge_execute(_act);
+	break;
 }
 }

@@ -1,5 +1,5 @@
 ///@description Executes a Spawn Action
-///@param eat_action
+///@param spawn_action
 {
 var _act = argument0;
 
@@ -16,7 +16,9 @@ switch(_state) {
 		
 		var _obj_ind = _act[? "Object"];
 	
-		instance_create_layer(_sx, _sy, layer, _obj_ind);
+		instance_create_layer((_sx + 0.5) * global.cell_size, (_sy + 0.5) * global.cell_size, layer, _obj_ind);
+		
+		
 		
 		_state = 2;
 	break;
