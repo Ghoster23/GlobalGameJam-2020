@@ -559,6 +559,14 @@
             }
         },
         {
+            "Key": "2fb92b6b-4aea-4eda-9304-fca5be2eb5b2",
+            "Value": {
+                "id": "a7b9a46a-8a81-4e6c-b0f2-281bfe3d50f0",
+                "resourcePath": "datafiles_yy\\level5.csv.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "2fdb37d9-bf8b-4e93-adff-1623b3682fd6",
             "Value": {
                 "id": "e1a2782d-fe1e-42e1-9ec7-239c2e0cc39c",
@@ -572,6 +580,14 @@
                 "id": "476cea0b-1ff6-4412-bb68-a3772ad3b8b1",
                 "resourcePath": "views\\2ff04d8f-9496-48f6-9ae5-9fbce31a7759.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "305e42c5-48c9-4fdb-9546-57641174be2d",
+            "Value": {
+                "id": "30c96dd1-0af6-402e-996c-11d15683e5ac",
+                "resourcePath": "sprites\\spr_reload\\spr_reload.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -772,6 +788,14 @@
                 "id": "cdb3189f-c303-4226-a01c-c6adb3695386",
                 "resourcePath": "sprites\\spr_board_selector\\spr_board_selector.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "45c5d782-29e6-4faf-b872-c3182ab63883",
+            "Value": {
+                "id": "d6a3d803-f11e-4dc5-baf8-43b6898a1acd",
+                "resourcePath": "objects\\obj_reload_button\\obj_reload_button.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1172,6 +1196,14 @@
                 "id": "3dcccda7-50dc-412b-8afa-c3a7bb36c484",
                 "resourcePath": "sprites\\spr_led\\spr_led.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6c11958a-af98-47de-9769-649b160a137d",
+            "Value": {
+                "id": "5a34ad8d-96bc-4988-8968-8da5328487eb",
+                "resourcePath": "datafiles_yy\\level6.csv.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
