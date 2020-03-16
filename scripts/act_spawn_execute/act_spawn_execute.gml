@@ -25,8 +25,7 @@ switch(_state) {
 			origin = other.id;
 			time_step = global.time_step;
 			
-			prev_move_h = grid_x - other.grid_x;
-			prev_move_v = grid_y - other.grid_y;
+			orientation = calculate_orientation(grid_x - other.grid_x,  grid_y - other.grid_y);
 		}
 		
 		_state = 2;

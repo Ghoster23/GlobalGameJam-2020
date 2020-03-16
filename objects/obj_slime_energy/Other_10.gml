@@ -2,12 +2,15 @@
 #region Find Cell to move to
 
 #region Find Connections
-var _connectors = ds_list_create();
+var _cell  = -1;
 
-var _positions = [[0, -1], [1, 0], [0, 1], [-1, 0]]; // up right down left
+var _positions = [[1, 0], [0, -1], [-1, 0], [0, 1]]; // right up left down
+
+var _start = (orientation + 3) mod 4;
 
 for(var _i = 0; _i < 4; _i++) {
-	var _pos = _positions[_i];
+	var _ori = (_start + _i) mod 4;
+	var _pos = _positions[_ori];
 	
 	var _adj_x = grid_x + _pos[0];
 	var _adj_y = grid_y + _pos[1];
@@ -29,38 +32,11 @@ for(var _i = 0; _i < 4; _i++) {
 		
 	if((_piece == noone or _piece == cell_reservation.blast or _isBSlime or _isComponent) and 
 	   _tile != noone and _tile.object_index == obj_wire) {	
-		ds_list_add(_connectors, _adj);
+		_cell = _adj;
+		orientation = _ori;
+		break;
 	}
 }
-#endregion
-
-var _cell = -1;
-
-#region Choose a connector from those found	
-var _count = ds_list_size(_connectors); // Choose a connector
-	
-// If there's only that one
-if(_count == 1) {
-	_cell = _connectors[| 0];
-}
-	
-// If there's more than one
-else if(_count > 1) {
-	var _choice = 0;
-		
-	_cell = _connectors[| _choice];
-	
-	var _tile = _cell[1];
-		
-	// If chosen to go back
-	if(prev_move_h * -1 == _tile.grid_x - grid_x and
-	   prev_move_v * -1 == _tile.grid_y - grid_y) {
-			
-		_cell = _connectors[| _choice + 1];
-	}
-}
-	
-ds_list_destroy(_connectors);
 #endregion
 
 if(_cell != -1) {
@@ -77,9 +53,6 @@ if(_cell != -1) {
 		
 		_cell[0] = cell_reservation.energy;
 		global.level_grid[# _tile.grid_x, _tile.grid_y] = _cell;
-		
-		prev_move_h = _mh;
-		prev_move_v = _mv;
 	}
 	// If there's a Blast Slime going to the cell
 	else if(_piece == cell_reservation.blast || _piece.object_index == obj_slime_blast) {

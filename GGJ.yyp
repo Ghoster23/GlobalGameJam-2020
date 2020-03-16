@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "152d72e5-2475-4569-ba88-184e399b5364",
+            "Value": {
+                "id": "255782c1-064d-4671-994e-f681fa1cbfd9",
+                "resourcePath": "scripts\\calculate_orientation\\calculate_orientation.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "159eb87f-fbfd-4410-a948-7fc944b2b9a2",
             "Value": {
                 "id": "2eac2acf-4964-49ce-90fb-80277da544f4",
@@ -2479,6 +2487,14 @@
             }
         },
         {
+            "Key": "e7d0f333-98c0-410c-b011-8615308cc586",
+            "Value": {
+                "id": "02f9dbd5-cb84-40c1-9e63-bb5b89286e60",
+                "resourcePath": "sprites\\spr_orientation_test\\spr_orientation_test.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e7d417e9-7c83-47b4-8527-9b0f55fb4028",
             "Value": {
                 "id": "c1d9ab70-64c2-4cab-bf91-02559b4d1505",
@@ -2878,7 +2894,8 @@
         "c7ce33e7-e229-4209-b980-abdde94d6aeb",
         "bc6dff05-0dd4-4801-809e-574ded6a838e",
         "c6a0afc0-bf36-413e-9910-0d487c0ed883",
-        "681550c0-d8aa-4b2c-b7ad-f328c4240d49"
+        "681550c0-d8aa-4b2c-b7ad-f328c4240d49",
+        "152d72e5-2475-4569-ba88-184e399b5364"
     ],
     "tutorial": ""
 }
