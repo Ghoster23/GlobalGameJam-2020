@@ -27,7 +27,7 @@ ds_list_add(global.level_info, [10,  5,  "level1.csv", 1, 2, 0, 0]); //1
 ds_list_add(global.level_info, [10,  5,  "level2.csv", 0, 0, 1, 1]); //2
 ds_list_add(global.level_info, [ 7,  7,  "level3.csv", 4, 4, 4, 4]); //3
 ds_list_add(global.level_info, [18,  9,  "level4.csv", 4, 4, 4, 4]); //4
-ds_list_add(global.level_info, [16,  16, "level5.csv", 6, 6, 6, 6]); //5
+ds_list_add(global.level_info, [16,  16, "level5.csv", 3, 6, 4, 10]); //5
 ds_list_add(global.level_info, [16,  16, "level6.csv", 6, 6, 6, 6]); //6
 
 

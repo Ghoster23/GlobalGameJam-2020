@@ -511,6 +511,14 @@
             }
         },
         {
+            "Key": "2b170ba1-7dc7-4c2c-8f4a-a7d985f59c0e",
+            "Value": {
+                "id": "339f7d20-a6a3-4042-9275-1a29a261b5f1",
+                "resourcePath": "datafiles_yy\\level6.csv.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "2d23cea4-804d-4dfe-bd01-fae44592761f",
             "Value": {
                 "id": "2d028981-6399-4a4e-8f69-39fb8a8e48f2",
@@ -564,14 +572,6 @@
                 "id": "8771dc4c-61ce-4f62-89e4-060c24dcc3ea",
                 "resourcePath": "objects\\obj_window_parent\\obj_window_parent.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "2fb92b6b-4aea-4eda-9304-fca5be2eb5b2",
-            "Value": {
-                "id": "a7b9a46a-8a81-4e6c-b0f2-281bfe3d50f0",
-                "resourcePath": "datafiles_yy\\level5.csv.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -967,6 +967,14 @@
             }
         },
         {
+            "Key": "572397b5-ad4d-49bd-9490-c0b6fb52476e",
+            "Value": {
+                "id": "26a4abab-5767-4934-bb3b-76be30d99fab",
+                "resourcePath": "datafiles_yy\\level5.csv.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "57646ee6-4f19-4564-a2ea-4035c1750cad",
             "Value": {
                 "id": "aa38924d-119a-4904-93af-89f21fa12d1a",
@@ -1204,14 +1212,6 @@
                 "id": "3dcccda7-50dc-412b-8afa-c3a7bb36c484",
                 "resourcePath": "sprites\\spr_led\\spr_led.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "6c11958a-af98-47de-9769-649b160a137d",
-            "Value": {
-                "id": "5a34ad8d-96bc-4988-8968-8da5328487eb",
-                "resourcePath": "datafiles_yy\\level6.csv.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
